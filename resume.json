@@ -1,0 +1,530 @@
+{
+  "basics": {
+    "name": "Charles Knox",
+    "label": "Software Developer",
+    "summary": "Software developer with 10 years of professional experience across a variety of areas of expertise. Physics undergraduate degree holder. Privacy and Open Source Software enthusiast. Vetted in DevOps/Agile/Incubation environments. Proven ability to architect, develop, and implement solutions that exceed expectations. Detail-oriented approach to problem solving ensures business and customer needs are met. Personal, ownership-oriented mentality drives daily work ethic. Transparency and ethical compliance in all endeavors is integral.",
+    "website": "https://charlesmknox.com",
+    "phone": "",
+    "email": "resume-contact.milos@8shield.net",
+    "picture": "/TechLife23.png",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Phoenix",
+      "countryCode": "US",
+      "region": "AZ"
+    },
+    "profiles": []
+  },
+  "work": [
+    {
+      "company": "Intel",
+      "website": "https://intel.com",
+      "position": "IOTG RBHE - Software Developer",
+      "startDate": "2018-10",
+      "summary": "Wrote multiple compliant, open source, market-ready reference solutions for a variety of retail/banking/hospitality/education use cases to showcase the power of Intel.",
+      "highlights": [
+        "Docker, Go, Angular, Python, Bash",
+        "OpenVINO, Computer Vision, RTSP",
+        "Reference Implementation for COVID-proof Drive-Through Restaurants",
+        "Project: Dynamic Hardware & Software Event Reactor",
+        "[github.com/intel/retail-node-installer](https://github.com/intel/retail-node-installer)",
+        "[github.com/intel-iot-devkit/automated-checkout](https://github.com/intel-iot-devkit/automated-checkout)",
+        "[github.com/edgexfoundry](https://github.com/edgexfoundry)"
+      ]
+    },
+    {
+      "company": "Intel",
+      "website": "https://intel.com",
+      "position": "IT ASE - Software Developer",
+      "startDate": "2014-12",
+      "endDate": "2018-10",
+      "summary": "Infrastructure as a Service, service metrics and analytics, and DevOps sysadmin support for the Intel virtual IT segment for up to 100,000 systems.",
+      "highlights": [
+        "Docker, Ansible, Python, SQL Server, Virtualization",
+        "OpenStack, VMware, Drone, CI/CD, DevOps",
+        "At-Scale EOL Automation (Divisional Recognition Award)",
+        "Cloud Metrics - Full-stack, large-data, enterprise-wide, financial analytics webapp",
+        "Enterprise Docker Registry (Divisional Recognition Award)"
+      ]
+    },
+    {
+      "company": "Intel",
+      "website": "https://intel.com",
+      "position": "ITIE - Software Developer Intern",
+      "startDate": "2014-07",
+      "endDate": "2015-01",
+      "summary": "ServiceNow and OpenStack Platform-as-a-Service application integration, and automated software testing/validation.",
+      "highlights": [
+        "JavaScript/Jasmine/Java/Selenium/C#",
+        "Behavior-Driven Development (BDD)",
+        "OpenStack, ServiceNow"
+      ]
+    },
+    {
+      "company": "Intel",
+      "website": "https://intel.com",
+      "position": "PEG - Design Verification Intern",
+      "startDate": "2014-05",
+      "endDate": "2014-07",
+      "summary": "Tested fault propagation through modeling and simulations in switching fabric with Perl, identifying bugs and assisting with QA processes.",
+      "highlights": [
+        "Bash/Perl",
+        "Team was dissolved by management after arrival"
+      ]
+    },
+    {
+      "company": "Arizona State University",
+      "website": "https://asu.edu",
+      "position": "Undergraduate Research Assistant",
+      "startDate": "2013-10",
+      "endDate": "2014-05",
+      "summary": "Used Linux and C programming to assist with the scientific method/discovery of decay rates of certain particles in the standard model.",
+      "highlights": [
+        "Linux/C++",
+        "Geant",
+        "Part-time during school"
+      ]
+    },
+    {
+      "company": "GlobalMedia Group LLC",
+      "website": "https://globalmed.com",
+      "position": "Software Developer - Intern",
+      "startDate": "2013-05",
+      "endDate": "2013-09",
+      "summary": "Software and hardware QA, product improvement/development. Systems administration/sysadmin for SQL server.",
+      "highlights": [
+        "Windows/Visual Studio",
+        "C#/.NET Framework"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "area": "Bachelors of Science in Physics",
+      "studyType": "Undergraduate",
+      "institution": "Arizona State University",
+      "gpa": "3.43",
+      "courses": [
+        "Quantum+Classical Mechanics I, II, III",
+        "Statistical & Mechanical Thermodynamics",
+        "Advanced Lab I, Electronics Lab",
+        "Society of Physics Students Club Tech Officer"
+      ],
+      "startDate": "2012-09",
+      "endDate": "2015-12"
+    },
+    {
+      "area": "Associates of Arts",
+      "studyType": "Undergraduate",
+      "institution": "Mesa Community College",
+      "gpa": "3.83",
+      "courses": [
+        "Phi Theta Kappa Honor Society",
+        "Honors Distinction"
+      ],
+      "startDate": "2010-06",
+      "endDate": "2012-05"
+    },
+    {
+      "area": "Extracurricular",
+      "studyType": "No degree program",
+      "institution": "Various Schools",
+      "courses": [
+        "ASU: A Sustainable Earth",
+        "MCC: Public Speaking"
+      ],
+      "startDate": "2019-06"
+    }
+  ],
+  "projects": [
+    {
+      "name": "[Firefox Containers Helper Extension](https://gitlab.com/icode331/firefox-containers-helper)",
+      "company": "Personal",
+      "summary": "[5-star rated extension on the Mozilla addon store](https://addons.mozilla.org/en-US/firefox/addon/containers-helper/) that provides a suite of extra features that come in handy for managing containers.",
+      "highlights": [
+        "Lead developer and owner",
+        "Minimal dependencies"
+      ],
+      "startDate": "2020-11",
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/containers-helper/",
+      "roles": [
+        "owner"
+      ]
+    },
+    {
+      "name": "[Goinvest](https://codeberg.org/icode/goinvest)",
+      "company": "Personal",
+      "summary": "Allows you to split stocks according to portfolio allocations that you can customize. Writes the portfolios to a CSV file so you can use it with other things.",
+      "highlights": [
+        "Written in Go",
+        "Written solo as a side project",
+        "Created out of a need not met elsewhere"
+      ],
+      "startDate": "2021-02",
+      "url": "https://codeberg.org/icode/goinvest",
+      "roles": [
+        "owner"
+      ]
+    },
+    {
+      "name": "[Gobackups](https://codeberg.org/icode/gobackups)",
+      "company": "Personal",
+      "summary": "Yaml-based, rsync/tar.gz/GPG, one-to-many, sequential backup configuration utility with a pleasant web log view.",
+      "highlights": [
+        "Written in Go and Angular",
+        "Written solo as a side project",
+        "Created out of a need not met elsewhere"
+      ],
+      "startDate": "2020-12",
+      "url": "https://codeberg.org/icode/gobackups",
+      "roles": [
+        "owner"
+      ]
+    },
+    {
+      "name": "[Light Sites](https://gitlab.com/light-sites/light-sites)",
+      "company": "Personal",
+      "summary": "A static markdown-to-HTML server that allows for rapid publishing of documents, with templating and other useful features. To see it live, visit [charlesmknox.com](https://charlesmknox.com).",
+      "highlights": [
+        "Written in Go",
+        "Written solo as a side project",
+        ">95% Unit test code coverage",
+        "Lightweight and efficient"
+      ],
+      "startDate": "2020-11",
+      "url": "https://gitlab.com/light-sites/light-sites",
+      "roles": [
+        "owner"
+      ]
+    },
+    {
+      "name": "[My Personal Website](https://js.charlesmknox.com)",
+      "company": "Personal",
+      "summary": "A full-stack blogging website written for myself and by myself, visible at [js.charlesmknox.com](https://js.charlesmknox.com). Uses simple Markdown files as the data source.",
+      "highlights": [
+        "Angular 9",
+        "Go 1.13",
+        "Docker/Nginx/Let's Encrypt/AWS",
+        "Dynamic Markdown blog"
+      ],
+      "startDate": "2020-04",
+      "url": "https://js.charlesmknox.com",
+      "roles": [
+        "owner"
+      ]
+    },
+    {
+      "name": "[Places You'll Go Therapy - Website](https://pygtherapy.com)",
+      "company": "Places You'll Go Therapy",
+      "summary": "Client website for a small company operating in Arizona. I also manage their hosting, site TLS encryption, DNS, and periodically consult for them.",
+      "highlights": [
+        "Angular 8",
+        "Docker/Nginx/Let's Encrypt/AWS"
+      ],
+      "startDate": "2019-01",
+      "url": "https://pygtherapy.com",
+      "roles": [
+        "owner"
+      ]
+    },
+    {
+      "name": "Python Technical Stock Market Analyzer",
+      "company": "Personal",
+      "summary": "Stock program that processed financial trends of over 40,000 stocks every day. Used Python with Celery to distribute workloads across a cluster of Raspberry Pi's and servers.",
+      "highlights": [
+        "Python, TA-Lib, Pandas, Celery, MongoDB",
+        "Analyzed Keltner Channels+other technicals to identify stocks nearing rebound",
+        "Flask API with user interface for consumable readouts",
+        "No source code available at this time!"
+      ],
+      "startDate": "2018-05",
+      "endDate": "2019-02",
+      "url": "",
+      "roles": [
+        "owner"
+      ]
+    },
+    {
+      "name": "[Python SQL Server ODBC Classes](https://github.com/charles-m-knox/pyodbc-sqlserver)",
+      "company": "Personal",
+      "summary": "Contains some simple helper classes for interacting with SQL Server. Leverages pyodbc and Microsoft's SQL Server driver.",
+      "highlights": [
+        "Python, SQL Server, ODBC",
+        "Dockerized install",
+        "Worked with SQL Server Linux Docker server",
+        "Archived, likely no longer works"
+      ],
+      "startDate": "2018-03",
+      "endDate": "2018-07",
+      "url": "https://github.com/charles-m-knox/pyodbc-sqlserver",
+      "roles": [
+        "owner"
+      ]
+    },
+    {
+      "name": "[Docker Hub Images](https://hub.docker.com/u/charlesmknox)",
+      "company": "Personal",
+      "summary": "A small collection of older Docker images I curated and pushed to the public Docker hub.",
+      "highlights": [
+        "Over 400k cumulative image pulls",
+        "Mostly outdated images by now (as of 2/2021)"
+      ],
+      "startDate": "2016-05",
+      "endDate": "2018-10",
+      "url": "https://hub.docker.com/u/charlesmknox",
+      "roles": [
+        "owner"
+      ]
+    },
+    {
+      "name": "[Compton Scattering Experiment](https://gitlab.com/charles-m-knox/compton-scattering-experiment)",
+      "company": "Arizona State University",
+      "summary": "An advanced laboratory experiment demonstrating that quantum mechanics supersedes classical mechanics in every day life by taking a radioactive element (Cs-137), piping its released particles at different angles, and measuring the produced energy. One would expect particles to only be going in the piped direction, but instead, they reach the energy measurement target even when piped in a perpendicular direction.",
+      "highlights": [
+        "Python algorithm identifies energy peaks",
+        "Python-generated, beautiful LaTeX graphics"
+      ],
+      "startDate": "2015-02",
+      "endDate": "2015-06",
+      "url": "https://gitlab.com/charles-m-knox/compton-scattering-experiment",
+      "roles": [
+        "owner"
+      ]
+    },
+    {
+      "name": "[Additive Synthesis in HTML5](https://gitlab.com/charles-m-knox/additive-synthesis-html5)",
+      "company": "Intel",
+      "summary": "Created in 4 hours at the Intel Intern Hackathon event in 2014, this is a single web-page that allows you to perform iterative additive synthesis in your browser - we are able to use Joseph Fourier's Fourier Series to add a number of sinusoidal waveforms together in order to approximate a Square Wave or Sawtooth Wave.",
+      "highlights": [],
+      "startDate": "2014-07",
+      "endDate": "2014-07",
+      "url": "https://gitlab.com/charles-m-knox/additive-synthesis-html5",
+      "roles": [
+        "owner"
+      ]
+    },
+    {
+      "name": "[Cinnamon Utilities Menu](https://gitlab.com/charles-m-knox/cinnamon-utils-menu)",
+      "company": "Personal",
+      "summary": "A very old applet that added a menu for common tasks on the desktop, created for the Cinnamon desktop environment, which is typically used with Linux Mint.",
+      "highlights": [
+        "Earliest public project in my dev career",
+        "EOL'ed when Cinnamon added the same features natively"
+      ],
+      "startDate": "2012-02",
+      "endDate": "2012-03",
+      "url": "https://hub.docker.com/u/charlesmknox",
+      "roles": [
+        "owner"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "General Software Development Competencies",
+      "level": "-advanced",
+      "keywords": [
+        "Git/GNU Make/Makefiles",
+        "Unit Testing/Code Coverage",
+        "Scrum/Agile",
+        "TDD Test-Driven Development",
+        "BDD Behavior-Driven Development"
+      ]
+    },
+    {
+      "name": "Programming Languages",
+      "level": "-advanced",
+      "keywords": [
+        "Go/Golang",
+        "Python",
+        "TypeScript/Node/JS",
+        "Bash",
+        "HTML/CSS",
+        "YML/JSON/TOML"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "-advanced",
+      "keywords": [
+        "Angular v2-v10",
+        "TypeScript",
+        "React/React Native/Expo",
+        "JavaScript",
+        "Bootstrap/CSS/SCSS"
+      ]
+    },
+    {
+      "name": "Middleware",
+      "level": "-advanced",
+      "keywords": [
+        "Node/Express/Sails JS",
+        "Python/Flask",
+        "Go",
+        "Nginx"
+      ]
+    },
+    {
+      "name": "Data Science",
+      "level": "-intermediate",
+      "keywords": [
+        "Python/Pandas/Celery/TA-Lib",
+        "MongoDB/Redis/SQL",
+        "Data Transformation/ETL"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "-advanced",
+      "keywords": [
+        "Docker/Swarm/Compose",
+        "RancherOS",
+        "Linux",
+        "Drone/Jenkins",
+        "Ansible/IaaS/IaC",
+        "AWS/OpenStack"
+      ]
+    },
+    {
+      "name": "Embedded",
+      "level": "-intermediate",
+      "keywords": [
+        "Arduino/C",
+        "Raspberry Pi",
+        "MicroPython"
+      ]
+    },
+    {
+      "name": "Security",
+      "level": "-intermediate",
+      "keywords": [
+        "Threat modeling",
+        "Secure Boot/UEFI",
+        "Endpoint security",
+        "Encryption",
+        "Privacy",
+        "Tor"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "flavor": "volunteer",
+      "organization": "Ethical AI/Machine Learning Involvement",
+      "position": "Software Developer",
+      "startDate": "2020-09",
+      "summary": "Software development project lead assisting with making the world a better place, specifically to assist with reducing bias in AI and machine learning models.",
+      "highlights": [
+        "Project Lead"
+      ]
+    },
+    {
+      "flavor": "volunteer",
+      "organization": "Intel Small Group Mentoring",
+      "position": "Co-organizer",
+      "startDate": "2020-09",
+      "endDate": "2020-12",
+      "summary": "Brought together business and tech members of the Intel community to help us learn and understand each other's technical and business goals, experience, and background.",
+      "highlights": [
+        "Group co-lead"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "flavor": "award",
+      "title": "Lego Blocks at the Edge",
+      "date": "2019",
+      "awarder": "Intel Software Professionals Conference (SWPC)",
+      "website": "https://github.com/intel/RetailWorkloadOrchestrator",
+      "summary": "Showcased the [Retail Workload Orchestrator](https://github.com/intel/RetailWorkloadOrchestrator), which is a complete automation that enables rapid provisioning of a large number of devices at once."
+    },
+    {
+      "flavor": "award",
+      "title": "Divisional Recognition Award (DRA) - Enterprise Docker Registry",
+      "date": "2017",
+      "awarder": "Intel",
+      "website": "https://amr-registry.caas.intel.com",
+      "summary": "Formed a working group, and created the foundational architecture for the initial version of an Enterprise-grade Docker Registry."
+    },
+    {
+      "flavor": "award",
+      "title": "Divisional Recognition Award (DRA) - Large Scale Server Cleanup/EOL Automation",
+      "date": "2016",
+      "awarder": "Intel",
+      "summary": "Utilized a large Intel IT asset database to assist with the cleanup of over 100,000+ old servers, both physical and virtual. The system utilized automated emails, a message queue system to handle user cleanup requests, and hooks into various services to automatically cleanup without any more user interaction."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Blog",
+      "publisher": "Self",
+      "releaseDate": "2020",
+      "website": "https://charlesmknox.com",
+      "summary": "A blog that has some fun write-ups I've authored in my spare time, covering topics from healthy living to code tutorials."
+    }
+  ],
+  "interests": [
+    {
+      "name": "Software/App development",
+      "summary": "I write software outside of work for a variety of purposes, including home automation, big data storage, self-hosting services, etc.",
+      "keywords": []
+    },
+    {
+      "name": "Ironman Triathlon (140.6mi)",
+      "summary": "Ironman (140.6mi) triathlon finisher in 2017.",
+      "keywords": []
+    },
+    {
+      "name": "Health & Nutrition",
+      "summary": "Very health-conscious, especially about eating the right foods and daily lifestyle.",
+      "keywords": []
+    },
+    {
+      "name": "Learning",
+      "summary": "Passionate about learning, education is foundational to a functional society.",
+      "keywords": []
+    },
+    {
+      "name": "Home Improvement & DIY",
+      "summary": "I love working on my home whenever I have time, and DIY is always fun.",
+      "keywords": []
+    },
+    {
+      "name": "Privacy & Open Source Security",
+      "summary": "I value personal data privacy and strive to achieve optimal security over my digital identity.",
+      "keywords": [
+        "Self-hosting"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "**Anonymous**, Senior Software Developer, during Intel",
+      "reference": "Chuck is awesome. Honestly what else even needs to be said. He's one of the the most responsible, put-together, forward-thinking people have ever met and he easily meets any challenge presented to him. If you're actually reading these comments to decide if you should hire him just do it, you'll die happy knowing you made the right decision."
+    },
+    {
+      "name": "**Anonymous**, Senior Software Developer, during Intel",
+      "reference": "I had the pleasure of working with Charles for several years. During this time, we were on the same scrum team. As the product owner, I appreciated the contributions that Charles made to the backlog grooming process. He always provided relevant feedback during retrospectives, and when finishing stories early, supported team members in completing theirs. Charles was a go-to member of the team when it came to Docker-based developer practices, and took the initiative to provide training to the team. He assisted in the training of new team members who were not familiar with the CICD pipeline and python coding practices. I would strongly recommend Charles as a great person to work with, an excellent developer, and a learning-centered colleague."
+    },
+    {
+      "name": "**Anonymous**, Software Developer, during Intel",
+      "reference": "Chuck has been a pleasure to work with, he is a great team player and works hard to create quality software with a focus on customer usability. He is very driven to learn and takes great pride in providing quality results.' - Worked together in IOTG RBHE from 2018-current on the [Retail Node Installer](https://github.com/intel/retail-node-installer) project, which is publicly available on GitHub under [Intel](https://github.com/intel)."
+    },
+    {
+      "name": "**Anonymous**, Financial Analyst & Strategist, during Intel",
+      "reference": "Chuck and I worked together on an analytics product development project.  Chuck was the primary developer and I represented the business requirements.  Chuck and I developed a very collaborative, iterative style that allowed us to make fast progress while ensuring results were aligned to the overall end state required.  Chuck was quick to understand the core issues that we were trying to overcome and began by developing prototypes that allowed me to visualize solutions quickly.  The way in which Chuck and I cooperated on the project enabled us to deliver results constantly, tweak development to changing requirements and maintain discipline on overall project schedules.  I found working with Chuck very satisfying as he would continually include me in technical implementation decisions that ensured the business results were always front of mind."
+    },
+    {
+      "name": "**Anonymous**, Senior Software Developer, during Intel",
+      "reference": "Chuck is knowledgeable, technically articulate, and a pleasure to work with. I consider him a subject matter expert in various software technologies; including Docker, container orchestration and Angular (to name a few). This is evidenced by his role as a lead developer/designer of [an Internal] Cloud Metrics application, which to this day continues to be an impactful and powerful reporting tool used throughout Intel. He has been a invaluable technical asset to our team and I am certain he will continue to be a very strong technical contributor to any team he works for in the future."
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "level": "native"
+    }
+  ]
+}
