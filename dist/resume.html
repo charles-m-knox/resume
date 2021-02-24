@@ -1,0 +1,1974 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Charles Knox</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+        />
+        <style>
+            @font-face {
+              font-family: 'icomoon';
+              src:  url('fonts/icomoon.eot?z1lat9');
+              src:  url('fonts/icomoon.eot?z1lat9#iefix') format('embedded-opentype'),
+                url('fonts/icomoon.ttf?z1lat9') format('truetype'),
+                url('fonts/icomoon.woff?z1lat9') format('woff'),
+                url('fonts/icomoon.svg?z1lat9#icomoon') format('svg');
+              font-weight: normal;
+              font-style: normal;
+            }
+            
+            [class^="icon-"], [class*=" icon-"] {
+              /* use !important to prevent issues with browser extensions that change fonts */
+              font-family: 'icomoon' !important;
+              speak: none;
+              font-style: normal;
+              font-weight: normal;
+              font-variant: normal;
+              text-transform: none;
+              line-height: 1;
+            
+              /* Better Font Rendering =========== */
+              -webkit-font-smoothing: antialiased;
+              -moz-osx-font-smoothing: grayscale;
+            }
+            
+            .icon-gitlab .path1:before {
+              content: "\e906";
+              color: rgb(252, 109, 38);
+            }
+            .icon-gitlab .path2:before {
+              content: "\e907";
+              margin-left: -1em;
+              color: rgb(226, 67, 41);
+            }
+            .icon-gitlab .path3:before {
+              content: "\e908";
+              margin-left: -1em;
+              color: rgb(252, 109, 38);
+            }
+            .icon-gitlab .path4:before {
+              content: "\e909";
+              margin-left: -1em;
+              color: rgb(252, 163, 38);
+            }
+            .icon-gitlab .path5:before {
+              content: "\e90a";
+              margin-left: -1em;
+              color: rgb(226, 67, 41);
+            }
+            .icon-gitlab .path6:before {
+              content: "\e90b";
+              margin-left: -1em;
+              color: rgb(252, 109, 38);
+            }
+            .icon-gitlab .path7:before {
+              content: "\e90c";
+              margin-left: -1em;
+              color: rgb(252, 163, 38);
+            }
+            .icon-gitlab .path8:before {
+              content: "\e90d";
+              margin-left: -1em;
+              color: rgb(226, 67, 41);
+            }
+            .icon-meetup .path1:before {
+              content: "\e901";
+              color: rgb(255, 255, 255);
+            }
+            .icon-meetup .path2:before {
+              content: "\e902";
+              margin-left: -1.5em;
+              color: rgb(240, 1, 1);
+            }
+            .icon-meetup .path3:before {
+              content: "\e903";
+              margin-left: -1.5em;
+              color: rgb(3, 3, 3);
+            }
+            .icon-blogger:before {
+              content: "\e900";
+            }
+            .icon-exercism:before {
+              content: "\e601";
+            }
+            .icon-telegram:before {
+              content: "\e904";
+            }
+            .icon-flickr:before {
+              content: "\f16e";
+            }
+            .icon-medium:before {
+              content: "\f23a";
+            }
+            .icon-heart:before {
+              content: "\f004";
+            }
+            .icon-book:before {
+              content: "\f02d";
+            }
+            .icon-linkedin:before {
+              content: "\f08c";
+            }
+            .icon-twitter:before {
+              content: "\f099";
+            }
+            .icon-github:before {
+              content: "\f09b";
+            }
+            .icon-link:before {
+              content: "\f0c1";
+            }
+            .icon-bars:before {
+              content: "\f0c9";
+            }
+            .icon-pinterest:before {
+              content: "\f0d2";
+            }
+            .icon-googleplus:before {
+              content: "\f0d5";
+            }
+            .icon-circle:before {
+              content: "\f111";
+            }
+            .icon-code:before {
+              content: "\f121";
+            }
+            .icon-youtube:before {
+              content: "\f167";
+            }
+            .icon-stackoverflow:before {
+              content: "\f16c";
+            }
+            .icon-bitbucket:before {
+              content: "\f171";
+            }
+            .icon-tumblr:before {
+              content: "\f173";
+            }
+            .icon-dribbble:before {
+              content: "\f17d";
+            }
+            .icon-skype:before {
+              content: "\f17e";
+            }
+            .icon-foursquare:before {
+              content: "\f180";
+            }
+            .icon-gittip:before {
+              content: "\f184";
+            }
+            .icon-gratipay:before {
+              content: "\f184";
+            }
+            .icon-stackexchange:before {
+              content: "\f18d";
+            }
+            .icon-vimeo:before {
+              content: "\f194";
+            }
+            .icon-graduation-cap:before {
+              content: "\f19d";
+            }
+            .icon-language:before {
+              content: "\f1ab";
+            }
+            .icon-child:before {
+              content: "\f1ae";
+            }
+            .icon-behance:before {
+              content: "\f1b5";
+            }
+            .icon-spotify:before {
+              content: "\f1bc";
+            }
+            .icon-soundcloud:before {
+              content: "\f1be";
+            }
+            .icon-codepen:before {
+              content: "\f1cb";
+            }
+            .icon-hackernews:before {
+              content: "\f1d4";
+            }
+            .icon-lastfm:before {
+              content: "\f202";
+            }
+            .icon-angellist:before {
+              content: "\f209";
+            }
+            .icon-facebook:before {
+              content: "\f230";
+            }
+            .icon-instagram:before {
+              content: "\e905";
+            }
+            .icon-trophy:before {
+              content: "\e605";
+            }
+            .icon-office:before {
+              content: "\e606";
+            }
+            .icon-clock:before {
+              content: "\e60a";
+            }
+            .icon-reddit:before {
+              content: "\e609";
+            }
+            .icon-profile:before {
+              content: "\e600";
+            }
+            .icon-tools:before {
+              content: "\e034";
+            }
+            .icon-location:before {
+              content: "\e602";
+            }
+            .icon-mail:before {
+              content: "\e603";
+            }
+            .icon-phone:before {
+              content: "\e03f";
+            }
+            .icon-newspaper:before {
+              content: "\e607";
+            }
+            .icon-chevron-down:before {
+              content: "\e60c";
+            }
+            .icon-chevron-up:before {
+              content: "\e60d";
+            }
+            .icon-dots-three-horizontal:before {
+              content: "\e60b";
+            }
+            .icon-thumbs-up:before {
+              content: "\e604";
+            }
+            .icon-board:before {
+              content: "\e608";
+            }
+            
+            .relative {
+              position: relative;
+            }
+            .clear-margin {
+              margin: 0;
+            }
+            .space-top {
+              margin-top: 10px;
+            }
+            .space-right {
+              margin-right: 10px;
+            }
+            .space-bottom {
+              margin-bottom: 10px;
+            }
+            .mr-5 {
+              margin-right: 5px;
+            }
+            .mr-10 {
+              margin-right: 10px;
+            }
+            .ml-5 {
+              margin-left: 5px;
+            }
+            .labels {
+              line-height: 2;
+            }
+            .label-keyword {
+              display: inline-block;
+              background: #7eb0db;
+              color: white;
+              font-size: 0.9em;
+              padding: 5px;
+              border: 1px solid #357ebd;
+              margin-right: 5px;
+            }
+            .label-keyword:last-child {
+              margin-right: 0;
+            }
+            .link-disguise {
+              color: inherit;
+            }
+            .link-disguise:hover {
+              color: inherit;
+            }
+            .clear-margin {
+              margin: 0;
+            }
+            @media (max-width: 992px) {
+              .clear-margin-sm {
+                margin-bottom: 0;
+              }
+            }
+            .fs-lg {
+              font-size: 1.33333333em;
+              line-height: 0.75em;
+              vertical-align: -15%;
+            }
+            .fs-2x {
+              font-size: 2em;
+            }
+            .fs-3x {
+              font-size: 3em;
+            }
+            .fs-4x {
+              font-size: 4em;
+            }
+            .btn-circle-sm {
+              width: 28px;
+              height: 28px;
+              line-height: 28px;
+              border-radius: 50%;
+              text-align: center;
+              padding: 0;
+              outline: none !important;
+            }
+            /* the version when the icon file is last updated */
+            @font-face {
+              font-family: 'jst-elegant';
+              src: url("https://unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.eot?f218wo");
+              src: url("https://unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.eot?f218wo#iefix") format('embedded-opentype'), url("https://unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.ttf?f218wo") format('truetype'), url("https://unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.woff?f218wo") format('woff'), url("https://unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.svg?f218wo#icomoon") format('svg');
+              font-weight: normal;
+              font-style: normal;
+            }
+            [class^="icon-"],
+            [class*=" icon-"] {
+              /* use !important to prevent issues with browser extensions that change fonts */
+              font-family: 'jst-elegant' !important;
+            }
+            body {
+              font-family: 'Lato';
+              background: #f0f0f0;
+              color: #333;
+            }
+            .main {
+              padding: 5px;
+            }
+            .card {
+              background: white;
+              border: 1px solid #e6e6e6;
+              border-radius: 3px;
+              min-height: 300px;
+              padding: 10px 0;
+            }
+            .card-nested {
+              min-height: 0;
+              border-width: 1px 0 0 0;
+            }
+            .card-nested:before,
+            .card-nested:after {
+              content: " ";
+              display: table;
+            }
+            .card-nested:after {
+              clear: both;
+            }
+            @media (max-width: 480px) {
+              .card-nested {
+                padding: 5px 0;
+              }
+            }
+            .background-card {
+              padding: 10px 20px;
+            }
+            .card-wrapper {
+              padding: 5px;
+            }
+            @media (max-width: 992px) {
+              .card-wrapper {
+                float: none !important;
+              }
+            }
+            .background-details .detail {
+              display: table;
+            }
+            .background-details .detail .icon {
+              min-width: 45px;
+              max-width: 45px;
+              text-align: center;
+            }
+            .background-details .detail .info {
+              width: 100%;
+            }
+            .background-details .detail .title,
+            .background-details .detail .icon {
+              color: #707070;
+            }
+            .background-details .detail .mobile-title {
+              display: none;
+            }
+            @media (max-width: 480px) {
+              .background-details .detail .mobile-title {
+                display: inline-block;
+                margin-left: 5px;
+                font-weight: bold;
+                text-transform: uppercase;
+                vertical-align: middle;
+              }
+            }
+            .background-details .detail .icon,
+            .background-details .detail .info {
+              display: table-cell;
+              padding: 0 10px;
+            }
+            @media (max-width: 480px) {
+              .background-details .detail {
+                display: block;
+              }
+              .background-details .detail .icon {
+                max-width: inherit;
+                min-width: inherit;
+                text-align: left;
+              }
+              .background-details .detail .icon,
+              .background-details .detail .info {
+                display: block;
+                padding: 10px 0;
+              }
+              .background-details .detail .title {
+                display: none;
+              }
+            }
+            .info .content.has-sidebar {
+              width: 80%;
+              box-sizing: border-box;
+              float: left;
+              padding: 0 10px;
+              border-right: 1px solid #cdcdcd;
+            }
+            @media (max-width: 992px) {
+              .info .content.has-sidebar {
+                width: 100%;
+                border-right: 0;
+              }
+            }
+            @media (max-width: 480px) {
+              .info .content.has-sidebar {
+                padding: 0 2px;
+              }
+            }
+            .info .sidebar {
+              margin-left: 80%;
+              box-sizing: border-box;
+              padding: 10px;
+            }
+            @media (max-width: 480px) {
+              ul {
+                padding-left: 25px;
+              }
+            }
+            .current-event {
+              font-size: 8px;
+              color: #5ACE24;
+              position: absolute;
+              right: 100%;
+              top: 4px;
+              left: -10px;
+            }
+            .mop-wrapper > p:last-child {
+              margin: 0;
+            }
+            /*
+                Credits: http://codyhouse.co/demo/smart-fixed-navigation/index.html
+            */
+            .floating-nav-trigger {
+              width: 50px;
+              height: 50px;
+              -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+              box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+              -webkit-transition: background-color 0.5s ease;
+              -o-transition: background-color 0.5s ease;
+              transition: background-color 0.5s ease;
+              display: block;
+              border-radius: 50%;
+              text-align: center;
+              background-color: white;
+              font-size: 1.5em;
+              color: #357ebd;
+              z-index: 100;
+              position: fixed;
+              bottom: 10px;
+              right: 10px;
+              text-decoration: none !important;
+            }
+            .floating-nav-trigger > [class^="icon-"],
+            .floating-nav-trigger [class*=" icon-"],
+            .floating-nav-trigger > .close-icon {
+              line-height: 50px;
+            }
+            .floating-nav-trigger .close-icon {
+              display: none;
+            }
+            .floating-nav-trigger:hover {
+              color: #1f496e;
+              background-color: #e6e6e6;
+            }
+            .floating-nav-trigger.is-open {
+              -webkit-box-shadow: none;
+              box-shadow: none;
+            }
+            .floating-nav-trigger.is-open .close-icon {
+              display: inherit;
+            }
+            .floating-nav-trigger.is-open .icon-bars {
+              display: none;
+            }
+            .floating-nav-trigger.is-open:hover {
+              background-color: white;
+            }
+            .floating-nav {
+              -webkit-transform: scale(0);
+              -ms-transform: scale(0);
+              -o-transform: scale(0);
+              transform: scale(0);
+              -webkit-transform-origin: 100% 100%;
+              -moz-transform-origin: 100% 100%;
+              -ms-transform-origin: 100% 100%;
+              transform-origin: 100% 100%;
+              -webkit-transition: transform 0.3s, visibility 0s 0.3s;
+              -o-transition: transform 0.3s, visibility 0s 0.3s;
+              transition: transform 0.3s, visibility 0s 0.3s;
+              -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+              box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+              position: fixed;
+              z-index: 50;
+              right: 10px;
+              bottom: 10px;
+              background-color: white;
+              width: 90%;
+              max-width: 400px;
+              visibility: hidden;
+              overflow: hidden;
+            }
+            .floating-nav ul {
+              font-size: 1.2em;
+              margin: 0;
+            }
+            .floating-nav ul li {
+              border-bottom: 1px solid #eff2f6;
+            }
+            .floating-nav ul li a {
+              padding: 20px;
+              text-decoration: none;
+              color: #357ebd;
+              display: block;
+            }
+            .floating-nav ul li a:hover {
+              color: #1f496e;
+            }
+            .floating-nav ul li:last-child {
+              border-bottom: 0;
+            }
+            .floating-nav.is-visible {
+              -webkit-transform: scale(1);
+              -ms-transform: scale(1);
+              -o-transform: scale(1);
+              transform: scale(1);
+              -webkit-transition: transform 0.3s, visibility 0s 0s;
+              -o-transition: transform 0.3s, visibility 0s 0s;
+              transition: transform 0.3s, visibility 0s 0s;
+              visibility: visible;
+            }
+            @media (max-width: 992px) {
+              .profile-card-wrapper {
+                position: relative;
+              }
+            }
+            .profile-card-wrapper .profile-card {
+              padding: 10px;
+            }
+            .profile-pic {
+              padding: 20px 0;
+            }
+            @media (max-width: 992px) {
+              .profile-pic {
+                padding: 10px 0;
+              }
+            }
+            .profile-pic img {
+              width: 100px;
+              height: 100px;
+            }
+            @media (max-width: 992px) {
+              .name {
+                margin-top: 10px;
+              }
+            }
+            @media (max-width: 768px) {
+              .contact-details {
+                text-align: center;
+              }
+            }
+            .contact-details .detail {
+              display: table;
+              padding: 10px 0;
+            }
+            .contact-details .detail .icon {
+              padding: 0 10px;
+              color: #707070;
+            }
+            @media (max-width: 992px) {
+              .contact-details .detail .icon {
+                padding: 0 5px 0 0;
+              }
+            }
+            .contact-details .detail .info {
+              font-size: 0.8em;
+            }
+            .contact-details .detail .icon,
+            .contact-details .detail .info {
+              display: table-cell;
+              vertical-align: middle;
+            }
+            @media (max-width: 768px) {
+              .contact-details .detail {
+                position: relative;
+                float: left;
+                width: 100%;
+                min-height: 1px;
+                padding-left: 15px;
+                padding-right: 15px;
+              }
+            }
+            @media (max-width: 992px) {
+              .contact-details .detail {
+                position: relative;
+                min-height: 1px;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding: 10px;
+              }
+              .contact-details .detail .icon,
+              .contact-details .detail .info {
+                display: inline-block;
+              }
+            }
+            @media (max-width: 992px) and (min-width: 768px) {
+              .contact-details .detail {
+                float: left;
+                width: 25%;
+              }
+            }
+            .social-links {
+              line-height: 2.5;
+            }
+            .social-link {
+              margin-left: 5px;
+              min-width: 35px;
+              display: inline-block;
+            }
+            .social-link:first-child {
+              margin-left: 0;
+            }
+            .social-link:hover {
+              text-decoration: none;
+            }
+            .link-github {
+              color: #454545;
+            }
+            .link-github:hover,
+            .link-github:focus {
+              text-decoration: none;
+              color: #2b2b2b;
+            }
+            .link-twitter {
+              color: #33ccff;
+            }
+            .link-twitter:hover,
+            .link-twitter:focus {
+              text-decoration: none;
+              color: #00bfff;
+            }
+            .link-blog {
+              color: #f36f24;
+            }
+            .link-blog:hover,
+            .link-blog:focus {
+              text-decoration: none;
+              color: #d8560c;
+            }
+            .link-linkedin {
+              color: #007bb6;
+            }
+            .link-linkedin:hover,
+            .link-linkedin:focus {
+              text-decoration: none;
+              color: #005983;
+            }
+            .link-skype {
+              color: #12A5F4;
+            }
+            .link-skype:hover,
+            .link-skype:focus {
+              text-decoration: none;
+              color: #0986ca;
+            }
+            .link-instagram {
+              color: #e4405f;
+            }
+            .link-instagram:hover,
+            .link-instagram:focus {
+              text-decoration: none;
+              color: #d31e40;
+            }
+            .link-stackoverflow {
+              color: #8e8e92;
+            }
+            .link-stackoverflow:hover,
+            .link-stackoverflow:focus {
+              text-decoration: none;
+              color: #747479;
+            }
+            .link-stackexchange {
+              color: #62b0df;
+            }
+            .link-stackexchange:hover,
+            .link-stackexchange:focus {
+              text-decoration: none;
+              color: #389bd6;
+            }
+            .link-lastfm {
+              color: #d12127;
+            }
+            .link-lastfm:hover,
+            .link-lastfm:focus {
+              text-decoration: none;
+              color: #a51a1f;
+            }
+            .link-soundcloud {
+              color: #e8822d;
+            }
+            .link-soundcloud:hover,
+            .link-soundcloud:focus {
+              text-decoration: none;
+              color: #cc6916;
+            }
+            .link-googleplus {
+              color: #dd4b39;
+            }
+            .link-googleplus:hover,
+            .link-googleplus:focus {
+              text-decoration: none;
+              color: #c23321;
+            }
+            .link-youtube {
+              color: #dd4b39;
+            }
+            .link-youtube:hover,
+            .link-youtube:focus {
+              text-decoration: none;
+              color: #c23321;
+            }
+            .link-pinterest {
+              color: #bd091f;
+            }
+            .link-pinterest:hover,
+            .link-pinterest:focus {
+              text-decoration: none;
+              color: #8c0717;
+            }
+            .link-gratipay {
+              color: #630;
+            }
+            .link-gratipay:hover,
+            .link-gratipay:focus {
+              text-decoration: none;
+              color: #331a00;
+            }
+            .link-vimeo {
+              color: #17b3e8;
+            }
+            .link-vimeo:hover,
+            .link-vimeo:focus {
+              text-decoration: none;
+              color: #128fba;
+            }
+            .link-behance {
+              color: #2c98cf;
+            }
+            .link-behance:hover,
+            .link-behance:focus {
+              text-decoration: none;
+              color: #2379a5;
+            }
+            .link-codepen {
+              color: #1c1c1c;
+            }
+            .link-codepen:hover,
+            .link-codepen:focus {
+              text-decoration: none;
+              color: #020202;
+            }
+            .link-foursquare {
+              color: #fa4778;
+            }
+            .link-foursquare:hover,
+            .link-foursquare:focus {
+              text-decoration: none;
+              color: #f91554;
+            }
+            .link-reddit {
+              color: #545454;
+            }
+            .link-reddit:hover,
+            .link-reddit:focus {
+              text-decoration: none;
+              color: #3b3b3b;
+            }
+            .link-spotify {
+              color: #acd200;
+            }
+            .link-spotify:hover,
+            .link-spotify:focus {
+              text-decoration: none;
+              color: #829f00;
+            }
+            .link-tumblr {
+              color: #2d4661;
+            }
+            .link-tumblr:hover,
+            .link-tumblr:focus {
+              text-decoration: none;
+              color: #1d2d3e;
+            }
+            .link-dribbble {
+              color: #ce366f;
+            }
+            .link-dribbble:hover,
+            .link-dribbble:focus {
+              text-decoration: none;
+              color: #a82959;
+            }
+            .link-facebook {
+              color: #4b6daa;
+            }
+            .link-facebook:hover,
+            .link-facebook:focus {
+              text-decoration: none;
+              color: #3b5687;
+            }
+            .link-angellist {
+              color: black;
+            }
+            .link-angellist:hover,
+            .link-angellist:focus {
+              text-decoration: none;
+              color: #000000;
+            }
+            .link-bitbucket {
+              color: #205081;
+            }
+            .link-bitbucket:hover,
+            .link-bitbucket:focus {
+              text-decoration: none;
+              color: #163758;
+            }
+            .link-hackernews {
+              color: #ff6600;
+            }
+            .link-hackernews:hover,
+            .link-hackernews:focus {
+              text-decoration: none;
+              color: #cc5200;
+            }
+            .link-exercism {
+              color: #d81d4e;
+            }
+            .link-exercism:hover,
+            .link-exercism:focus {
+              text-decoration: none;
+              color: #ab173e;
+            }
+            .link-blogger {
+              color: #FF9234;
+            }
+            .link-blogger:hover,
+            .link-blogger:focus {
+              text-decoration: none;
+              color: #ff7701;
+            }
+            .link-medium {
+              color: #00AB6C;
+            }
+            .link-medium:hover,
+            .link-medium:focus {
+              text-decoration: none;
+              color: #00784c;
+            }
+            .link-flickr {
+              color: black;
+            }
+            .link-flickr:hover,
+            .link-flickr:focus {
+              text-decoration: none;
+              color: #000000;
+            }
+            .link-telegram {
+              color: #3BABDD;
+            }
+            .link-telegram:hover,
+            .link-telegram:focus {
+              text-decoration: none;
+              color: #2291c3;
+            }
+            .card-skills {
+              position: relative;
+            }
+            .skill-level {
+              border-radius: 3px;
+              position: absolute;
+              top: 10px;
+              bottom: 10px;
+              left: 0;
+              width: 10px;
+              box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2);
+            }
+            .skill-level .skill-progress {
+              position: absolute;
+              border-radius: 3px;
+              bottom: 0;
+              width: 100%;
+              -webkit-transition: height 1s ease;
+            }
+            .skill-level .skill-progress.beginner {
+              height: 50%;
+              background: #e74c3c;
+            }
+            .skill-level .skill-progress.intermediate {
+              height: 70%;
+              background: #f1c40f;
+            }
+            .skill-level .skill-progress.advanced {
+              height: 80%;
+              background: #428bca;
+            }
+            .skill-level .skill-progress.master {
+              height: 95%;
+              background: #5cb85c;
+            }
+            .skill-info {
+              margin-left: 15px;
+            }
+            @media (max-width: 480px) {
+              .skill-info {
+                margin-left: 20px;
+              }
+            }
+            @media (max-width: 768px) {
+              .quote {
+                font-size: inherit;
+              }
+            }
+            .icon-meetup .path2:before {
+              margin-left: 0;
+            }
+            @media print {
+              a[href]:after {
+                content: none !important;
+              }
+              .profile-card {
+                text-align: center;
+              }
+              .profile-pic {
+                display: inline-block;
+                vertical-align: middle;
+              }
+              .profile-pic img {
+                border-radius: 0;
+              }
+              .name-and-profession {
+                display: inline-block;
+                vertical-align: middle;
+                margin-left: 15px;
+              }
+              .contact-details .detail {
+                position: relative;
+                float: left;
+                width: 25%;
+                min-height: 1px;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding: 0;
+              }
+              .floating-nav,
+              .floating-nav-trigger {
+                display: none;
+              }
+              .pagebreak {
+                page-break-before: always;
+              }
+            }
+        </style>
+    </head>
+    
+    <body itemscope="itemscope" itemtype="http://schema.org/Person">
+        <div class="container-fluid">
+            <div class="row main clearfix"><a class="js-floating-nav-trigger floating-nav-trigger" href="#"><i class="icon-bars"></i><span class="close-icon">&times;</span></a>
+                <nav
+                class="floating-nav js-floating-nav">
+                    <ul class="list-unstyled">
+                        <li><a href="#about"><i class="mr-10 icon-board"></i>About</a>
+                        </li>
+                        <li><a href="#work-experience"><i class="mr-10 icon-office"></i>Work Experience</a>
+                        </li>
+                        <li><a href="#projects-experience"><i class="mr-10 icon-code"></i>Projects Experience</a>
+                        </li>
+                        <li><a href="#skills"><i class="mr-10 icon-tools"></i>Skills</a>
+                        </li>
+                        <li><a href="#education"><i class="mr-10 icon-graduation-cap"></i>Education</a>
+                        </li>
+                        <li><a href="#awards"><i class="mr-10 icon-trophy"></i>Awards</a>
+                        </li>
+                        <li><a href="#volunteer-work"><i class="mr-10 icon-child"></i>Volunteer Work</a>
+                        </li>
+                        <li><a href="#publications"><i class="mr-10 icon-newspaper"></i>Publications</a>
+                        </li>
+                        <li><a href="#interests"><i class="mr-10 icon-heart"></i>Interests</a>
+                        </li>
+                        <li><a href="#references"><i class="mr-10 icon-thumbs-up"></i>References</a>
+                        </li>
+                    </ul>
+                    </nav>
+                    <section class="col-md-3 card-wrapper profile-card-wrapper affix">
+                        <div class="card profile-card"><span class="profile-pic-container"><div class="profile-pic"><img class="media-object img-circle center-block" data-src="holder.js/100x100" alt="Charles Knox" src="/TechLife23.png" itemprop="image"/></div><div class="name-and-profession text-center"><h3 itemprop="name"><b>Charles Knox</b></h3><h5 class="text-muted" itemprop="jobTitle">Software Developer</h5></div></span>
+                            <hr/>
+                            <div class="contact-details clearfix">
+                                <div class="detail"><span class="icon"><i class="icon fs-lg icon-location"></i></span>
+                                    <span
+                                    class="info">Phoenix, AZ, US</span>
+                                </div>
+                                <div class="detail"><span class="icon"><i class="icon fs-lg icon-mail"></i></span><span class="info"><a class="link-disguise" href="mailto:resume-contact.milos@8shield.net" itemprop="email">resume-contact.milos@8shield.net</a></span>
+                                </div>
+                                <div class="detail"><span class="icon"><i class="icon fs-lg icon-link"></i></span><span class="info"><a href="https://charlesmknox.com" target="_blank">https://charlesmknox.com</a></span>
+                                </div>
+                                <div class="detail"><span class="icon" title="Languages I speak"><i class="icon fs-lg icon-language"></i></span>
+                                    <span
+                                    class="info">English</span>
+                                </div>
+                            </div>
+                            <hr/>
+                            <div class="social-links text-center">
+                                <div></div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="col-md-9 card-wrapper pull-right">
+                        <div class="card background-card">
+                            <h4 class="text-uppercase">Background</h4>
+                            <hr/>
+                            <div class="background-details">
+                                <div class="detail" id="about">
+                                    <div class="icon"><i class="fs-lg icon-board"></i><span class="mobile-title">About</span>
+                                    </div>
+                                    <div class="info">
+                                        <h4 class="title text-uppercase">About</h4>
+                                        <div class="card card-nested">
+                                            <div class="content mop-wrapper" itemprop="description">
+                                                <p>Software developer with 10 years of professional experience across a variety
+                                                    of areas of expertise. Physics undergraduate degree holder. Privacy and
+                                                    Open Source Software enthusiast. Vetted in DevOps/Agile/Incubation environments.
+                                                    Proven ability to architect, develop, and implement solutions that exceed
+                                                    expectations. Detail-oriented approach to problem solving ensures business
+                                                    and customer needs are met. Personal, ownership-oriented mentality drives
+                                                    daily work ethic. Transparency and ethical compliance in all endeavors
+                                                    is integral.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="detail" id="work-experience">
+                                    <div class="icon"><i class="fs-lg icon-office"></i><span class="mobile-title">Work Experience</span>
+                                    </div>
+                                    <div class="info">
+                                        <h4 class="title text-uppercase">Work Experience</h4>
+                                        <ul class="list-unstyled clear-margin">
+                                            <li class="card card-nested clearfix">
+                                                <div class="content">
+                                                    <p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Working"
+                                                        data-placement="left"></i><strong>IOTG RBHE - Software Developer</strong>,&nbsp;
+                                                        <a
+                                                        href="https://intel.com" target="_blank">Intel</a>
+                                                    </p>
+                                                    <p class="text-muted"><small><span class="space-right">Oct, 2018 - Present</span></small>
+                                                    </p>
+                                                    <div class="mop-wrapper space-bottom">
+                                                        <p>Wrote multiple compliant, open source, market-ready reference solutions
+                                                            for a variety of retail/banking/hospitality/education use cases to showcase
+                                                            the power of Intel.</p>
+                                                    </div>
+                                                    <ul>
+                                                        <li class="mop-wrapper">
+                                                            <p>Docker, Go, Angular, Python, Bash</p>
+                                                        </li>
+                                                        <li class="mop-wrapper">
+                                                            <p>OpenVINO, Computer Vision, RTSP</p>
+                                                        </li>
+                                                        <li class="mop-wrapper">
+                                                            <p>Reference Implementation for COVID-proof Drive-Through Restaurants</p>
+                                                        </li>
+                                                        <li class="mop-wrapper">
+                                                            <p>Project: Dynamic Hardware &amp; Software Event Reactor</p>
+                                                        </li>
+                                                        <li class="mop-wrapper">
+                                                            <p><a href="https://github.com/intel/retail-node-installer">github.com/intel/retail-node-installer</a>
+                                                            </p>
+                                                        </li>
+                                                        <li class="mop-wrapper">
+                                                            <p><a href="https://github.com/intel-iot-devkit/automated-checkout">github.com/intel-iot-devkit/automated-checkout</a>
+                                                            </p>
+                                                        </li>
+                                                        <li class="mop-wrapper">
+                                                            <p><a href="https://github.com/edgexfoundry">github.com/edgexfoundry</a>
+                                                            </p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="card card-nested clearfix">
+                                                <div class="content">
+                                                    <p class="clear-margin relative"><strong>IT ASE - Software Developer</strong>,&nbsp;<a href="https://intel.com"
+                                                        target="_blank">Intel</a>
+                                                    </p>
+                                                    <p class="text-muted"><small><span class="space-right">Dec, 2014 - Oct, 2018</span><span><i class="icon-clock mr-5"></i>3 years 10 months</span></small>
+                                                    </p>
+                                                    <div class="mop-wrapper space-bottom">
+                                                        <p>Infrastructure as a Service, service metrics and analytics, and DevOps
+                                                            sysadmin support for the Intel virtual IT segment for up to 100,000 systems.</p>
+                                                    </div>
+                                                    <ul>
+                                                        <li class="mop-wrapper">
+                                                            <p>Docker, Ansible, Python, SQL Server, Virtualization</p>
+                                                        </li>
+                                                        <li class="mop-wrapper">
+                                                            <p>OpenStack, VMware, Drone, CI/CD, DevOps</p>
+                                                        </li>
+                                                        <li class="mop-wrapper">
+                                                            <p>At-Scale EOL Automation (Divisional Recognition Award)</p>
+                                                        </li>
+                                                        <li class="mop-wrapper">
+                                                            <p>Cloud Metrics - Full-stack, large-data, enterprise-wide, financial analytics
+                                                                webapp</p>
+                                                        </li>
+                                                        <li class="mop-wrapper">
+                                                            <p>Enterprise Docker Registry (Divisional Recognition Award)</p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="card card-nested clearfix">
+                                                <div class="content">
+                                                    <p class="clear-margin relative"><strong>ITIE - Software Developer Intern</strong>,&nbsp;<a href="https://intel.com"
+                                                        target="_blank">Intel</a>
+                                                    </p>
+                                                    <p class="text-muted"><small><span class="space-right">Jul, 2014 - Jan, 2015</span><span><i class="icon-clock mr-5"></i>6 months</span></small>
+                                                    </p>
+                                                    <div class="mop-wrapper space-bottom">
+                                                        <p>ServiceNow and OpenStack Platform-as-a-Service application integration,
+                                                            and automated software testing/validation.</p>
+                                                    </div>
+                                                    <ul>
+                                                        <li class="mop-wrapper">
+                                                            <p>JavaScript/Jasmine/Java/Selenium/C#</p>
+                                                        </li>
+                                                        <li class="mop-wrapper">
+                                                            <p>Behavior-Driven Development (BDD)</p>
+                                                        </li>
+                                                        <li class="mop-wrapper">
+                                                            <p>OpenStack, ServiceNow</p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="card card-nested clearfix">
+                                                <div class="content">
+                                                    <p class="clear-margin relative"><strong>PEG - Design Verification Intern</strong>,&nbsp;<a href="https://intel.com"
+                                                        target="_blank">Intel</a>
+                                                    </p>
+                                                    <p class="text-muted"><small><span class="space-right">May, 2014 - Jul, 2014</span><span><i class="icon-clock mr-5"></i>2 months</span></small>
+                                                    </p>
+                                                    <div class="mop-wrapper space-bottom">
+                                                        <p>Tested fault propagation through modeling and simulations in switching
+                                                            fabric with Perl, identifying bugs and assisting with QA processes.</p>
+                                                    </div>
+                                                    <ul>
+                                                        <li class="mop-wrapper">
+                                                            <p>Bash/Perl</p>
+                                                        </li>
+                                                        <li class="mop-wrapper">
+                                                            <p>Team was dissolved by management after arrival</p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="card card-nested clearfix">
+                                                <div class="content">
+                                                    <p class="clear-margin relative"><strong>Undergraduate Research Assistant</strong>,&nbsp;<a href="https://asu.edu"
+                                                        target="_blank">Arizona State University</a>
+                                                    </p>
+                                                    <p class="text-muted"><small><span class="space-right">Oct, 2013 - May, 2014</span><span><i class="icon-clock mr-5"></i>7 months</span></small>
+                                                    </p>
+                                                    <div class="mop-wrapper space-bottom">
+                                                        <p>Used Linux and C programming to assist with the scientific method/discovery
+                                                            of decay rates of certain particles in the standard model.</p>
+                                                    </div>
+                                                    <ul>
+                                                        <li class="mop-wrapper">
+                                                            <p>Linux/C++</p>
+                                                        </li>
+                                                        <li class="mop-wrapper">
+                                                            <p>Geant</p>
+                                                        </li>
+                                                        <li class="mop-wrapper">
+                                                            <p>Part-time during school</p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="card card-nested clearfix">
+                                                <div class="content">
+                                                    <p class="clear-margin relative"><strong>Software Developer - Intern</strong>,&nbsp;<a href="https://globalmed.com"
+                                                        target="_blank">GlobalMedia Group LLC</a>
+                                                    </p>
+                                                    <p class="text-muted"><small><span class="space-right">May, 2013 - Sep, 2013</span><span><i class="icon-clock mr-5"></i>4 months</span></small>
+                                                    </p>
+                                                    <div class="mop-wrapper space-bottom">
+                                                        <p>Software and hardware QA, product improvement/development. Systems administration/sysadmin
+                                                            for SQL server.</p>
+                                                    </div>
+                                                    <ul>
+                                                        <li class="mop-wrapper">
+                                                            <p>Windows/Visual Studio</p>
+                                                        </li>
+                                                        <li class="mop-wrapper">
+                                                            <p>C#/.NET Framework</p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="detail" id="projects-experience">
+                                    <div class="icon"><i class="fs-lg icon-code"></i><span class="mobile-title">Projects Experience</span>
+                                    </div>
+                                    <div class="info">
+                                        <h4 class="title text-uppercase">Projects Experience</h4>
+                                        <ul class="list-unstyled clear-margin">
+                                            <li class="card card-nested clearfix">
+                                                <div class="content">
+                                                    <p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Working"
+                                                        data-placement="left"></i><strong><a href="https://gitlab.com/icode331/firefox-containers-helper">Firefox Containers Helper Extension</a></strong>,&nbsp;Personal</p>
+                                                    <p
+                                                    class="text-muted"><small><span class="space-right">Nov, 2020 - Present</span></small>
+                                                        </p>
+                                                        <div class="mop-wrapper space-bottom">
+                                                            <p><a href="https://addons.mozilla.org/en-US/firefox/addon/containers-helper/">5-star rated extension on the Mozilla addon store</a> that
+                                                                provides a suite of extra features that come in handy for managing containers.</p>
+                                                        </div>
+                                                        <ul>
+                                                            <li class="mop-wrapper">
+                                                                <p>Lead developer and owner</p>
+                                                            </li>
+                                                            <li class="mop-wrapper">
+                                                                <p>Minimal dependencies</p>
+                                                            </li>
+                                                        </ul>
+                                                </div>
+                                            </li>
+                                            <li class="card card-nested clearfix">
+                                                <div class="content">
+                                                    <p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Working"
+                                                        data-placement="left"></i><strong><a href="https://codeberg.org/icode/goinvest">Goinvest</a></strong>,&nbsp;Personal</p>
+                                                    <p
+                                                    class="text-muted"><small><span class="space-right">Feb, 2021 - Present</span></small>
+                                                        </p>
+                                                        <div class="mop-wrapper space-bottom">
+                                                            <p>Allows you to split stocks according to portfolio allocations that you
+                                                                can customize. Writes the portfolios to a CSV file so you can use it with
+                                                                other things.</p>
+                                                        </div>
+                                                        <ul>
+                                                            <li class="mop-wrapper">
+                                                                <p>Written in Go</p>
+                                                            </li>
+                                                            <li class="mop-wrapper">
+                                                                <p>Written solo as a side project</p>
+                                                            </li>
+                                                            <li class="mop-wrapper">
+                                                                <p>Created out of a need not met elsewhere</p>
+                                                            </li>
+                                                        </ul>
+                                                </div>
+                                            </li>
+                                            <li class="card card-nested clearfix">
+                                                <div class="content">
+                                                    <p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Working"
+                                                        data-placement="left"></i><strong><a href="https://codeberg.org/icode/gobackups">Gobackups</a></strong>,&nbsp;Personal</p>
+                                                    <p
+                                                    class="text-muted"><small><span class="space-right">Dec, 2020 - Present</span></small>
+                                                        </p>
+                                                        <div class="mop-wrapper space-bottom">
+                                                            <p>Yaml-based, rsync/tar.gz/GPG, one-to-many, sequential backup configuration
+                                                                utility with a pleasant web log view.</p>
+                                                        </div>
+                                                        <ul>
+                                                            <li class="mop-wrapper">
+                                                                <p>Written in Go and Angular</p>
+                                                            </li>
+                                                            <li class="mop-wrapper">
+                                                                <p>Written solo as a side project</p>
+                                                            </li>
+                                                            <li class="mop-wrapper">
+                                                                <p>Created out of a need not met elsewhere</p>
+                                                            </li>
+                                                        </ul>
+                                                </div>
+                                            </li>
+                                            <li class="card card-nested clearfix">
+                                                <div class="content">
+                                                    <p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Working"
+                                                        data-placement="left"></i><strong><a href="https://gitlab.com/light-sites/light-sites">Light Sites</a></strong>,&nbsp;Personal</p>
+                                                    <p
+                                                    class="text-muted"><small><span class="space-right">Nov, 2020 - Present</span></small>
+                                                        </p>
+                                                        <div class="mop-wrapper space-bottom">
+                                                            <p>A static markdown-to-HTML server that allows for rapid publishing of documents,
+                                                                with templating and other useful features. To see it live, visit <a href="https://charlesmknox.com">charlesmknox.com</a>.</p>
+                                                        </div>
+                                                        <ul>
+                                                            <li class="mop-wrapper">
+                                                                <p>Written in Go</p>
+                                                            </li>
+                                                            <li class="mop-wrapper">
+                                                                <p>Written solo as a side project</p>
+                                                            </li>
+                                                            <li class="mop-wrapper">
+                                                                <p>&gt;95% Unit test code coverage</p>
+                                                            </li>
+                                                            <li class="mop-wrapper">
+                                                                <p>Lightweight and efficient</p>
+                                                            </li>
+                                                        </ul>
+                                                </div>
+                                            </li>
+                                            <li class="card card-nested clearfix">
+                                                <div class="content">
+                                                    <p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Working"
+                                                        data-placement="left"></i><strong><a href="https://js.charlesmknox.com">My Personal Website</a></strong>,&nbsp;Personal</p>
+                                                    <p
+                                                    class="text-muted"><small><span class="space-right">Apr, 2020 - Present</span></small>
+                                                        </p>
+                                                        <div class="mop-wrapper space-bottom">
+                                                            <p>A full-stack blogging website written for myself and by myself, visible
+                                                                at <a href="https://js.charlesmknox.com">js.charlesmknox.com</a>. Uses simple
+                                                                Markdown files as the data source.</p>
+                                                        </div>
+                                                        <ul>
+                                                            <li class="mop-wrapper">
+                                                                <p>Angular 9</p>
+                                                            </li>
+                                                            <li class="mop-wrapper">
+                                                                <p>Go 1.13</p>
+                                                            </li>
+                                                            <li class="mop-wrapper">
+                                                                <p>Docker/Nginx/Let&#39;s Encrypt/AWS</p>
+                                                            </li>
+                                                            <li class="mop-wrapper">
+                                                                <p>Dynamic Markdown blog</p>
+                                                            </li>
+                                                        </ul>
+                                                </div>
+                                            </li>
+                                            <li class="card card-nested clearfix">
+                                                <div class="content">
+                                                    <p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Working"
+                                                        data-placement="left"></i><strong><a href="https://pygtherapy.com">Places You&#39;ll Go Therapy - Website</a></strong>,&nbsp;Places
+                                                        You&#39;ll Go Therapy</p>
+                                                    <p class="text-muted"><small><span class="space-right">Jan, 2019 - Present</span></small>
+                                                    </p>
+                                                    <div class="mop-wrapper space-bottom">
+                                                        <p>Client website for a small company operating in Arizona. I also manage
+                                                            their hosting, site TLS encryption, DNS, and periodically consult for them.</p>
+                                                    </div>
+                                                    <ul>
+                                                        <li class="mop-wrapper">
+                                                            <p>Angular 8</p>
+                                                        </li>
+                                                        <li class="mop-wrapper">
+                                                            <p>Docker/Nginx/Let&#39;s Encrypt/AWS</p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="card card-nested clearfix">
+                                                <div class="content">
+                                                    <p class="clear-margin relative"><strong>Python Technical Stock Market Analyzer</strong>,&nbsp;Personal</p>
+                                                    <p
+                                                    class="text-muted"><small><span class="space-right">May, 2018 - Feb, 2019</span><span><i class="icon-clock mr-5"></i>9 months</span></small>
+                                                        </p>
+                                                        <div class="mop-wrapper space-bottom">
+                                                            <p>Stock program that processed financial trends of over 40,000 stocks every
+                                                                day. Used Python with Celery to distribute workloads across a cluster of
+                                                                Raspberry Pi&#39;s and servers.</p>
+                                                        </div>
+                                                        <ul>
+                                                            <li class="mop-wrapper">
+                                                                <p>Python, TA-Lib, Pandas, Celery, MongoDB</p>
+                                                            </li>
+                                                            <li class="mop-wrapper">
+                                                                <p>Analyzed Keltner Channels+other technicals to identify stocks nearing
+                                                                    rebound</p>
+                                                            </li>
+                                                            <li class="mop-wrapper">
+                                                                <p>Flask API with user interface for consumable readouts</p>
+                                                            </li>
+                                                            <li class="mop-wrapper">
+                                                                <p>No source code available at this time!</p>
+                                                            </li>
+                                                        </ul>
+                                                </div>
+                                            </li>
+                                            <li class="card card-nested clearfix">
+                                                <div class="content">
+                                                    <p class="clear-margin relative"><strong><a href="https://github.com/charles-m-knox/pyodbc-sqlserver">Python SQL Server ODBC Classes</a></strong>,&nbsp;Personal</p>
+                                                    <p
+                                                    class="text-muted"><small><span class="space-right">Mar, 2018 - Jul, 2018</span><span><i class="icon-clock mr-5"></i>4 months</span></small>
+                                                        </p>
+                                                        <div class="mop-wrapper space-bottom">
+                                                            <p>Contains some simple helper classes for interacting with SQL Server. Leverages
+                                                                pyodbc and Microsoft&#39;s SQL Server driver.</p>
+                                                        </div>
+                                                        <ul>
+                                                            <li class="mop-wrapper">
+                                                                <p>Python, SQL Server, ODBC</p>
+                                                            </li>
+                                                            <li class="mop-wrapper">
+                                                                <p>Dockerized install</p>
+                                                            </li>
+                                                            <li class="mop-wrapper">
+                                                                <p>Worked with SQL Server Linux Docker server</p>
+                                                            </li>
+                                                            <li class="mop-wrapper">
+                                                                <p>Archived, likely no longer works</p>
+                                                            </li>
+                                                        </ul>
+                                                </div>
+                                            </li>
+                                            <li class="card card-nested clearfix">
+                                                <div class="content">
+                                                    <p class="clear-margin relative"><strong><a href="https://hub.docker.com/u/charlesmknox">Docker Hub Images</a></strong>,&nbsp;Personal</p>
+                                                    <p
+                                                    class="text-muted"><small><span class="space-right">May, 2016 - Oct, 2018</span><span><i class="icon-clock mr-5"></i>2 years 5 months</span></small>
+                                                        </p>
+                                                        <div class="mop-wrapper space-bottom">
+                                                            <p>A small collection of older Docker images I curated and pushed to the
+                                                                public Docker hub.</p>
+                                                        </div>
+                                                        <ul>
+                                                            <li class="mop-wrapper">
+                                                                <p>Over 400k cumulative image pulls</p>
+                                                            </li>
+                                                            <li class="mop-wrapper">
+                                                                <p>Mostly outdated images by now (as of 2/2021)</p>
+                                                            </li>
+                                                        </ul>
+                                                </div>
+                                            </li>
+                                            <li class="card card-nested clearfix">
+                                                <div class="content">
+                                                    <p class="clear-margin relative"><strong><a href="https://gitlab.com/charles-m-knox/compton-scattering-experiment">Compton Scattering Experiment</a></strong>,&nbsp;Arizona
+                                                        State University</p>
+                                                    <p class="text-muted"><small><span class="space-right">Feb, 2015 - Jun, 2015</span><span><i class="icon-clock mr-5"></i>4 months</span></small>
+                                                    </p>
+                                                    <div class="mop-wrapper space-bottom">
+                                                        <p>An advanced laboratory experiment demonstrating that quantum mechanics
+                                                            supersedes classical mechanics in every day life by taking a radioactive
+                                                            element (Cs-137), piping its released particles at different angles, and
+                                                            measuring the produced energy. One would expect particles to only be going
+                                                            in the piped direction, but instead, they reach the energy measurement
+                                                            target even when piped in a perpendicular direction.</p>
+                                                    </div>
+                                                    <ul>
+                                                        <li class="mop-wrapper">
+                                                            <p>Python algorithm identifies energy peaks</p>
+                                                        </li>
+                                                        <li class="mop-wrapper">
+                                                            <p>Python-generated, beautiful LaTeX graphics</p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="card card-nested clearfix">
+                                                <div class="content">
+                                                    <p class="clear-margin relative"><strong><a href="https://gitlab.com/charles-m-knox/additive-synthesis-html5">Additive Synthesis in HTML5</a></strong>,&nbsp;Intel</p>
+                                                    <p
+                                                    class="text-muted"><small><span class="space-right">Jul, 2014 - Jul, 2014</span><span><i class="icon-clock mr-5"></i>1 day</span></small>
+                                                        </p>
+                                                        <div class="mop-wrapper space-bottom">
+                                                            <p>Created in 4 hours at the Intel Intern Hackathon event in 2014, this is
+                                                                a single web-page that allows you to perform iterative additive synthesis
+                                                                in your browser - we are able to use Joseph Fourier&#39;s Fourier Series
+                                                                to add a number of sinusoidal waveforms together in order to approximate
+                                                                a Square Wave or Sawtooth Wave.</p>
+                                                        </div>
+                                                </div>
+                                            </li>
+                                            <li class="card card-nested clearfix">
+                                                <div class="content">
+                                                    <p class="clear-margin relative"><strong><a href="https://gitlab.com/charles-m-knox/cinnamon-utils-menu">Cinnamon Utilities Menu</a></strong>,&nbsp;Personal</p>
+                                                    <p
+                                                    class="text-muted"><small><span class="space-right">Feb, 2012 - Mar, 2012</span><span><i class="icon-clock mr-5"></i>1 month</span></small>
+                                                        </p>
+                                                        <div class="mop-wrapper space-bottom">
+                                                            <p>A very old applet that added a menu for common tasks on the desktop, created
+                                                                for the Cinnamon desktop environment, which is typically used with Linux
+                                                                Mint.</p>
+                                                        </div>
+                                                        <ul>
+                                                            <li class="mop-wrapper">
+                                                                <p>Earliest public project in my dev career</p>
+                                                            </li>
+                                                            <li class="mop-wrapper">
+                                                                <p>EOL&#39;ed when Cinnamon added the same features natively</p>
+                                                            </li>
+                                                        </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="detail" id="skills">
+                                    <div class="icon"><i class="fs-lg icon-tools"></i><span class="mobile-title">Skills</span>
+                                    </div>
+                                    <div class="info">
+                                        <h4 class="title text-uppercase">Skills</h4>
+                                        <div class="content">
+                                            <ul class="list-unstyled clear-margin">
+                                                <li class="card card-nested card-skills">
+                                                    <div class="skill-info"><strong>General Software Development Competencies</strong>
+                                                        <div class="space-top labels"><span class="label label-keyword">Git/GNU Make/Makefiles</span><span class="label label-keyword">Unit Testing/Code Coverage</span>
+                                                            <span
+                                                            class="label label-keyword">Scrum/Agile</span><span class="label label-keyword">TDD Test-Driven Development</span>
+                                                                <span
+                                                                class="label label-keyword">BDD Behavior-Driven Development</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="card card-nested card-skills">
+                                                    <div class="skill-info"><strong>Programming Languages</strong>
+                                                        <div class="space-top labels"><span class="label label-keyword">Go/Golang</span><span class="label label-keyword">Python</span>
+                                                            <span
+                                                            class="label label-keyword">TypeScript/Node/JS</span><span class="label label-keyword">Bash</span>
+                                                                <span
+                                                                class="label label-keyword">HTML/CSS</span><span class="label label-keyword">YML/JSON/TOML</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="card card-nested card-skills">
+                                                    <div class="skill-info"><strong>Web Development</strong>
+                                                        <div class="space-top labels"><span class="label label-keyword">Angular v2-v10</span><span class="label label-keyword">TypeScript</span>
+                                                            <span
+                                                            class="label label-keyword">React/React Native/Expo</span><span class="label label-keyword">JavaScript</span>
+                                                                <span
+                                                                class="label label-keyword">Bootstrap/CSS/SCSS</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="card card-nested card-skills">
+                                                    <div class="skill-info"><strong>Middleware</strong>
+                                                        <div class="space-top labels"><span class="label label-keyword">Node/Express/Sails JS</span><span class="label label-keyword">Python/Flask</span>
+                                                            <span
+                                                            class="label label-keyword">Go</span><span class="label label-keyword">Nginx</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="card card-nested card-skills">
+                                                    <div class="skill-info"><strong>Data Science</strong>
+                                                        <div class="space-top labels"><span class="label label-keyword">Python/Pandas/Celery/TA-Lib</span>
+                                                            <span
+                                                            class="label label-keyword">MongoDB/Redis/SQL</span><span class="label label-keyword">Data Transformation/ETL</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="card card-nested card-skills">
+                                                    <div class="skill-info"><strong>DevOps</strong>
+                                                        <div class="space-top labels"><span class="label label-keyword">Docker/Swarm/Compose</span><span class="label label-keyword">RancherOS</span>
+                                                            <span
+                                                            class="label label-keyword">Linux</span><span class="label label-keyword">Drone/Jenkins</span>
+                                                                <span
+                                                                class="label label-keyword">Ansible/IaaS/IaC</span><span class="label label-keyword">AWS/OpenStack</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="card card-nested card-skills">
+                                                    <div class="skill-info"><strong>Embedded</strong>
+                                                        <div class="space-top labels"><span class="label label-keyword">Arduino/C</span><span class="label label-keyword">Raspberry Pi</span>
+                                                            <span
+                                                            class="label label-keyword">MicroPython</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="card card-nested card-skills">
+                                                    <div class="skill-info"><strong>Security</strong>
+                                                        <div class="space-top labels"><span class="label label-keyword">Threat modeling</span><span class="label label-keyword">Secure Boot/UEFI</span>
+                                                            <span
+                                                            class="label label-keyword">Endpoint security</span><span class="label label-keyword">Encryption</span>
+                                                                <span
+                                                                class="label label-keyword">Privacy</span><span class="label label-keyword">Tor</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="detail" id="education">
+                                    <div class="icon"><i class="fs-lg icon-graduation-cap"></i><span class="mobile-title">Education</span>
+                                    </div>
+                                    <div class="info">
+                                        <h4 class="title text-uppercase">Education</h4>
+                                        <div class="content">
+                                            <ul class="list-unstyled clear-margin">
+                                                <li class="card card-nested">
+                                                    <div class="content">
+                                                        <p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Pursuing"
+                                                            data-placement="left"></i><strong>Extracurricular, No degree program,&nbsp;</strong>Various
+                                                            Schools</p>
+                                                        <p class="text-muted"><small>Jun, 2019 - Present</small>
+                                                        </p><i></i>
+                                                        <div class="space-top labels"><span class="label label-keyword">ASU: A Sustainable Earth</span>
+                                                            <span
+                                                            class="label label-keyword">MCC: Public Speaking</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="card card-nested">
+                                                    <div class="content">
+                                                        <p class="clear-margin relative"><strong>Bachelors of Science in Physics, Undergraduate,&nbsp;</strong>Arizona
+                                                            State University</p>
+                                                        <p class="text-muted"><small>Sep, 2012 - Dec, 2015</small>
+                                                        </p><i>3.43</i>
+                                                        <div class="space-top labels"><span class="label label-keyword">Quantum+Classical Mechanics I, II, III</span>
+                                                            <span
+                                                            class="label label-keyword">Statistical &amp; Mechanical Thermodynamics</span><span class="label label-keyword">Advanced Lab I, Electronics Lab</span>
+                                                                <span
+                                                                class="label label-keyword">Society of Physics Students Club Tech Officer</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="card card-nested">
+                                                    <div class="content">
+                                                        <p class="clear-margin relative"><strong>Associates of Arts, Undergraduate,&nbsp;</strong>Mesa Community
+                                                            College</p>
+                                                        <p class="text-muted"><small>Jun, 2010 - May, 2012</small>
+                                                        </p><i>3.83</i>
+                                                        <div class="space-top labels"><span class="label label-keyword">Phi Theta Kappa Honor Society</span>
+                                                            <span
+                                                            class="label label-keyword">Honors Distinction</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="detail" id="awards">
+                                    <div class="icon"><i class="fs-lg icon-trophy"></i><span class="mobile-title">Awards</span>
+                                    </div>
+                                    <div class="info">
+                                        <h4 class="title text-uppercase">Awards</h4>
+                                        <div class="content">
+                                            <ul class="list-unstyled clear-margin">
+                                                <li class="card card-nested">
+                                                    <div class="content">
+                                                        <p class="clear-margin" itemprop="award"><strong>Lego Blocks at the Edge </strong>Intel Software Professionals
+                                                            Conference (SWPC)</p>
+                                                        <p class="text-muted"><small>Awarded on: Jan 01, 2019</small>
+                                                        </p>
+                                                        <div class="mop-wrapper">
+                                                            <p>Showcased the <a href="https://github.com/intel/RetailWorkloadOrchestrator">Retail Workload Orchestrator</a>,
+                                                                which is a complete automation that enables rapid provisioning of a large
+                                                                number of devices at once.</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="card card-nested">
+                                                    <div class="content">
+                                                        <p class="clear-margin" itemprop="award"><strong>Divisional Recognition Award (DRA) - Enterprise Docker Registry </strong>Intel</p>
+                                                        <p
+                                                        class="text-muted"><small>Awarded on: Jan 01, 2017</small>
+                                                            </p>
+                                                            <div class="mop-wrapper">
+                                                                <p>Formed a working group, and created the foundational architecture for
+                                                                    the initial version of an Enterprise-grade Docker Registry.</p>
+                                                            </div>
+                                                    </div>
+                                                </li>
+                                                <li class="card card-nested">
+                                                    <div class="content">
+                                                        <p class="clear-margin" itemprop="award"><strong>Divisional Recognition Award (DRA) - Large Scale Server Cleanup/EOL Automation </strong>Intel</p>
+                                                        <p
+                                                        class="text-muted"><small>Awarded on: Jan 01, 2016</small>
+                                                            </p>
+                                                            <div class="mop-wrapper">
+                                                                <p>Utilized a large Intel IT asset database to assist with the cleanup of
+                                                                    over 100,000+ old servers, both physical and virtual. The system utilized
+                                                                    automated emails, a message queue system to handle user cleanup requests,
+                                                                    and hooks into various services to automatically cleanup without any more
+                                                                    user interaction.</p>
+                                                            </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="detail" id="volunteer-work">
+                                    <div class="icon"><i class="fs-lg icon-child"></i><span class="mobile-title">Volunteer Work</span>
+                                    </div>
+                                    <div class="info">
+                                        <h4 class="title text-uppercase">Volunteer Work</h4>
+                                        <div class="content">
+                                            <ul class="list-unstyled clear-margin">
+                                                <li class="card card-nested">
+                                                    <div class="content">
+                                                        <p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Volunteering"
+                                                            data-placement="left"></i><strong>Software Developer, </strong>Ethical
+                                                            AI/Machine Learning Involvement</p>
+                                                        <p class="text-muted"><small>Sep, 2020 - Present</small>
+                                                        </p>
+                                                        <div class="mop-wrapper">
+                                                            <p>Software development project lead assisting with making the world a better
+                                                                place, specifically to assist with reducing bias in AI and machine learning
+                                                                models.</p>
+                                                        </div>
+                                                        <ul>
+                                                            <li class="mop-wrapper">
+                                                                <p>Project Lead</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="card card-nested">
+                                                    <div class="content">
+                                                        <p class="clear-margin relative"><strong>Co-organizer, </strong>Intel Small Group Mentoring</p>
+                                                        <p class="text-muted"><small>Sep, 2020 - Dec, 2020</small>
+                                                        </p>
+                                                        <div class="mop-wrapper">
+                                                            <p>Brought together business and tech members of the Intel community to help
+                                                                us learn and understand each other&#39;s technical and business goals,
+                                                                experience, and background.</p>
+                                                        </div>
+                                                        <ul>
+                                                            <li class="mop-wrapper">
+                                                                <p>Group co-lead</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="detail" id="publications">
+                                    <div class="icon"><i class="fs-lg icon-newspaper"></i><span class="mobile-title">Publications</span>
+                                    </div>
+                                    <div class="info">
+                                        <h4 class="title text-uppercase">Publications</h4>
+                                        <div class="content">
+                                            <ul class="list-unstyled clear-margin">
+                                                <li class="card card-nested">
+                                                    <div class="content">
+                                                        <p class="clear-margin"><strong><a href="https://charlesmknox.com" target="_blank">Blog</a>&nbsp;,&nbsp;</strong>Self</p>
+                                                        <p
+                                                        class="text-muted"><small>Published on: Jan 01, 2020</small>
+                                                            </p>
+                                                            <div class="mop-wrapper">
+                                                                <p>A blog that has some fun write-ups I&#39;ve authored in my spare time,
+                                                                    covering topics from healthy living to code tutorials.</p>
+                                                            </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="detail" id="interests">
+                                    <div class="icon"><i class="fs-lg icon-heart"></i><span class="mobile-title">Interests</span>
+                                    </div>
+                                    <div class="info">
+                                        <h4 class="title text-uppercase">Interests</h4>
+                                        <div class="content">
+                                            <ul class="list-unstyled clear-margin">
+                                                <li class="card card-nested">
+                                                    <p><strong>Software/App development</strong>
+                                                    </p>
+                                                </li>
+                                                <li class="card card-nested">
+                                                    <p><strong>Ironman Triathlon (140.6mi)</strong>
+                                                    </p>
+                                                </li>
+                                                <li class="card card-nested">
+                                                    <p><strong>Health &amp; Nutrition</strong>
+                                                    </p>
+                                                </li>
+                                                <li class="card card-nested">
+                                                    <p><strong>Learning</strong>
+                                                    </p>
+                                                </li>
+                                                <li class="card card-nested">
+                                                    <p><strong>Home Improvement &amp; DIY</strong>
+                                                    </p>
+                                                </li>
+                                                <li class="card card-nested">
+                                                    <p><strong>Privacy &amp; Open Source Security</strong>
+                                                    </p>
+                                                    <div class="space-top labels"><span class="label label-keyword">Self-hosting</span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="detail" id="references">
+                                    <div class="icon"><i class="fs-lg icon-thumbs-up"></i><span class="mobile-title">References</span>
+                                    </div>
+                                    <div class="info">
+                                        <h4 class="title text-uppercase">References</h4>
+                                        <div class="content">
+                                            <ul class="list-unstyled clear-margin">
+                                                <li class="card card-nested"><strong>Anonymous</strong>, Senior Software Developer, during Intel
+                                                    <blockquote
+                                                    class="quote">
+                                                        <div class="mop-wrapper">
+                                                            <p>Chuck is awesome. Honestly what else even needs to be said. He&#39;s one
+                                                                of the the most responsible, put-together, forward-thinking people have
+                                                                ever met and he easily meets any challenge presented to him. If you&#39;re
+                                                                actually reading these comments to decide if you should hire him just do
+                                                                it, you&#39;ll die happy knowing you made the right decision.</p>
+                                                        </div>
+                                                        </blockquote>
+                                                </li>
+                                                <li class="card card-nested"><strong>Anonymous</strong>, Senior Software Developer, during Intel
+                                                    <blockquote
+                                                    class="quote">
+                                                        <div class="mop-wrapper">
+                                                            <p>I had the pleasure of working with Charles for several years. During this
+                                                                time, we were on the same scrum team. As the product owner, I appreciated
+                                                                the contributions that Charles made to the backlog grooming process. He
+                                                                always provided relevant feedback during retrospectives, and when finishing
+                                                                stories early, supported team members in completing theirs. Charles was
+                                                                a go-to member of the team when it came to Docker-based developer practices,
+                                                                and took the initiative to provide training to the team. He assisted in
+                                                                the training of new team members who were not familiar with the CICD pipeline
+                                                                and python coding practices. I would strongly recommend Charles as a great
+                                                                person to work with, an excellent developer, and a learning-centered colleague.</p>
+                                                        </div>
+                                                        </blockquote>
+                                                </li>
+                                                <li class="card card-nested"><strong>Anonymous</strong>, Software Developer, during Intel
+                                                    <blockquote
+                                                    class="quote">
+                                                        <div class="mop-wrapper">
+                                                            <p>Chuck has been a pleasure to work with, he is a great team player and
+                                                                works hard to create quality software with a focus on customer usability.
+                                                                He is very driven to learn and takes great pride in providing quality results.&#39;
+                                                                - Worked together in IOTG RBHE from 2018-current on the <a href="https://github.com/intel/retail-node-installer">Retail Node Installer</a> project,
+                                                                which is publicly available on GitHub under <a href="https://github.com/intel">Intel</a>.</p>
+                                                        </div>
+                                                        </blockquote>
+                                                </li>
+                                                <li class="card card-nested"><strong>Anonymous</strong>, Financial Analyst &amp; Strategist, during
+                                                    Intel
+                                                    <blockquote class="quote">
+                                                        <div class="mop-wrapper">
+                                                            <p>Chuck and I worked together on an analytics product development project.
+                                                                Chuck was the primary developer and I represented the business requirements.
+                                                                Chuck and I developed a very collaborative, iterative style that allowed
+                                                                us to make fast progress while ensuring results were aligned to the overall
+                                                                end state required. Chuck was quick to understand the core issues that
+                                                                we were trying to overcome and began by developing prototypes that allowed
+                                                                me to visualize solutions quickly. The way in which Chuck and I cooperated
+                                                                on the project enabled us to deliver results constantly, tweak development
+                                                                to changing requirements and maintain discipline on overall project schedules.
+                                                                I found working with Chuck very satisfying as he would continually include
+                                                                me in technical implementation decisions that ensured the business results
+                                                                were always front of mind.</p>
+                                                        </div>
+                                                    </blockquote>
+                                                </li>
+                                                <li class="card card-nested"><strong>Anonymous</strong>, Senior Software Developer, during Intel
+                                                    <blockquote
+                                                    class="quote">
+                                                        <div class="mop-wrapper">
+                                                            <p>Chuck is knowledgeable, technically articulate, and a pleasure to work
+                                                                with. I consider him a subject matter expert in various software technologies;
+                                                                including Docker, container orchestration and Angular (to name a few).
+                                                                This is evidenced by his role as a lead developer/designer of [an Internal]
+                                                                Cloud Metrics application, which to this day continues to be an impactful
+                                                                and powerful reporting tool used throughout Intel. He has been a invaluable
+                                                                technical asset to our team and I am certain he will continue to be a very
+                                                                strong technical contributor to any team he works for in the future.</p>
+                                                        </div>
+                                                        </blockquote>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script>
+            $(function () {
+              var toggleFloatingMenu = function() {
+                $( '.js-floating-nav' ).toggleClass( 'is-visible' );
+                $( '.js-floating-nav-trigger' ).toggleClass( 'is-open' );
+              };
+            
+              $( ".background-card" ).css( "min-height", window.screen.availHeight + "px" );
+              $( "[data-toggle=tooltip]" ).tooltip();
+              $( '.js-floating-nav-trigger' ).on( 'click', function(e) {
+                e.preventDefault();
+                toggleFloatingMenu();
+              });
+              $( '.js-floating-nav a' ).on( 'click', toggleFloatingMenu );
+            
+              $("#remaining-profiles").on('show.bs.collapse', function() {
+                $( '.js-profiles-collapse > i' )
+                  .removeClass( 'icon-chevron-down' )
+                  .addClass( 'icon-chevron-up' );
+              });
+            
+              $("#remaining-profiles").on('hidden.bs.collapse', function() {
+                $( '.js-profiles-collapse > i' )
+                  .removeClass( 'icon-chevron-up' )
+                  .addClass( 'icon-chevron-down' );
+              });
+            });
+        </script>
+        <script>
+            WebFontConfig = {
+              google: { families: [ 'Lato:300,400,700:latin' ] }
+            };
+            (function() {
+              var wf = document.createElement('script');
+              wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+                '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+              wf.type = 'text/javascript';
+              wf.async = 'true';
+              var s = document.getElementsByTagName('script')[0];
+              s.parentNode.insertBefore(wf, s);
+            })();
+        </script>
+    </body>
+
+</html>
