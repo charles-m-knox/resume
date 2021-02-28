@@ -199,9 +199,9 @@
       ]
     },
     {
-      "name": "[My Personal Website](https://js.charlesmknox.com)",
+      "name": "[My Personal Website](https://charlesmknox.com/portfolio/fullstack/blog-site/)",
       "company": "Personal",
-      "summary": "A full-stack blogging website written for myself and by myself, visible at [js.charlesmknox.com](https://js.charlesmknox.com). Uses simple Markdown files as the data source.",
+      "summary": "A full-stack blogging website written for myself and by myself. Replaced by [Hugo](https://gohugo.io). Uses simple Markdown files as the data source.",
       "highlights": [
         "Angular 9",
         "Go 1.13",
@@ -209,7 +209,8 @@
         "Dynamic Markdown blog"
       ],
       "startDate": "2020-04",
-      "url": "https://js.charlesmknox.com",
+      "endDate": "2021-02",
+      "url": "https://charlesmknox.com/portfolio/fullstack/blog-site/#technical-discussion",
       "roles": [
         "owner"
       ]
