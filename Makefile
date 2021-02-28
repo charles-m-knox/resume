@@ -1,7 +1,7 @@
 
 
 # gets used like .pdf or .all
-OUTPUT_FILENAME=resume
+OUTPUT_FILENAME=index
 
 # can be all instead
 OUTPUT_FILE_TYPE=html
@@ -10,7 +10,7 @@ OUTPUT_FILE_TYPE=html
 PICTURE_FILENAME=TechLife23.png
 
 THEME_DIR=jsonresume-theme-elegant
-DIST_DIR=dist
+DIST_DIR=docs
 RESUME_JSON=resume.json
 PWD=$(shell pwd)
 
