@@ -185,7 +185,7 @@
     {
       "name": "[Light Sites](https://gitlab.com/light-sites/light-sites)",
       "company": "Personal",
-      "summary": "A static markdown-to-HTML server that allows for rapid publishing of documents, with templating and other useful features. To see it live, visit [charlesmknox.com](https://charlesmknox.com).",
+      "summary": "A static markdown-to-HTML server that allows for rapid publishing of documents, with templating and other useful features. Written as a project to learn the nuances of recursion, XML node tree parsing, and tricky unit tests.",
       "highlights": [
         "Written in Go",
         "Written solo as a side project",
@@ -510,7 +510,7 @@
     },
     {
       "name": "**Anonymous**, Software Developer, during Intel",
-      "reference": "Chuck has been a pleasure to work with, he is a great team player and works hard to create quality software with a focus on customer usability. He is very driven to learn and takes great pride in providing quality results.' - Worked together in IOTG RBHE from 2018-current on the [Retail Node Installer](https://github.com/intel/retail-node-installer) project, which is publicly available on GitHub under [Intel](https://github.com/intel)."
+      "reference": "Chuck has been a pleasure to work with, he is a great team player and works hard to create quality software with a focus on customer usability. He is very driven to learn and takes great pride in providing quality results."
     },
     {
       "name": "**Anonymous**, Financial Analyst & Strategist, during Intel",
