@@ -1,6 +1,6 @@
-# Resume (Webpage version)
+# Resume
 
-Generates the webpage only. PDF doesn't seem to be able to capture the webfonts in time for render.
+Uses [JSON Resume(https://jsonresume.org/) to generate my resume, using `./resume.json`.
 
 ## Usage
 
@@ -17,7 +17,7 @@ make build-resume
 
 To conserve bandwidth, don't run `make reset-theme` every time. It's only necessary the first time.
 
-The output will be under `docs/index.html`. This file and the `pictures` directory should be served up by your HTML renderer.
+The output will be under `docs/index.html`.
 
 ## TODO
 

@@ -139,7 +139,7 @@
   ],
   "projects": [
     {
-      "name": "[Firefox Containers Helper Extension](https://gitlab.com/icode331/firefox-containers-helper)",
+      "name": "[Firefox Containers Helper Extension](https://github.com/charles-m-knox/firefox-containers-helper)",
       "company": "Personal",
       "summary": "[5-star rated extension on the Mozilla addon store](https://addons.mozilla.org/en-US/firefox/addon/containers-helper/) that provides a suite of extra features that come in handy for managing containers.",
       "highlights": [
@@ -153,7 +153,7 @@
       ]
     },
     {
-      "name": "[Goinvest](https://codeberg.org/icode/goinvest)",
+      "name": "[Goinvest](https://github.com/charles-m-knox/goinvest)",
       "company": "Personal",
       "summary": "Allows you to split stocks according to portfolio allocations that you can customize. Writes the portfolios to a CSV file so you can use it with other things.",
       "highlights": [
@@ -162,13 +162,13 @@
         "Created out of a need not met elsewhere"
       ],
       "startDate": "2021-02",
-      "url": "https://codeberg.org/icode/goinvest",
+      "url": "https://github.com/charles-m-knox/goinvest",
       "roles": [
         "owner"
       ]
     },
     {
-      "name": "[Gobackups](https://codeberg.org/icode/gobackups)",
+      "name": "[Gobackups](https://github.com/charles-m-knox/gobackups)",
       "company": "Personal",
       "summary": "Yaml-based, rsync/tar.gz/GPG, one-to-many, sequential backup configuration utility with a pleasant web log view.",
       "highlights": [
@@ -177,13 +177,13 @@
         "Created out of a need not met elsewhere"
       ],
       "startDate": "2020-12",
-      "url": "https://codeberg.org/icode/gobackups",
+      "url": "https://github.com/charles-m-knox/gobackups",
       "roles": [
         "owner"
       ]
     },
     {
-      "name": "[Light Sites](https://gitlab.com/light-sites/light-sites)",
+      "name": "[Light Sites](https://github.com/charles-m-knox/light-sites)",
       "company": "Personal",
       "summary": "A static markdown-to-HTML server that allows for rapid publishing of documents, with templating and other useful features. Written as a project to learn the nuances of recursion, XML node tree parsing, and tricky unit tests.",
       "highlights": [
@@ -193,7 +193,7 @@
         "Lightweight and efficient"
       ],
       "startDate": "2020-11",
-      "url": "https://gitlab.com/light-sites/light-sites",
+      "url": "https://github.com/charles-m-knox/light-sites",
       "roles": [
         "owner"
       ]
@@ -279,7 +279,7 @@
       ]
     },
     {
-      "name": "[Compton Scattering Experiment](https://gitlab.com/charles-m-knox/compton-scattering-experiment)",
+      "name": "[Compton Scattering Experiment](https://github.com/charles-m-knox/compton-scattering-experiment)",
       "company": "Arizona State University",
       "summary": "An advanced laboratory experiment demonstrating that quantum mechanics supersedes classical mechanics in every day life by taking a radioactive element (Cs-137), piping its released particles at different angles, and measuring the produced energy. One would expect particles to only be going in the piped direction, but instead, they reach the energy measurement target even when piped in a perpendicular direction.",
       "highlights": [
@@ -288,25 +288,25 @@
       ],
       "startDate": "2015-02",
       "endDate": "2015-06",
-      "url": "https://gitlab.com/charles-m-knox/compton-scattering-experiment",
+      "url": "https://github.com/charles-m-knox/compton-scattering-experiment",
       "roles": [
         "owner"
       ]
     },
     {
-      "name": "[Additive Synthesis in HTML5](https://gitlab.com/charles-m-knox/additive-synthesis-html5)",
+      "name": "[Additive Synthesis in HTML5](https://github.com/charles-m-knox/additive-synthesis-html5)",
       "company": "Intel",
       "summary": "Created in 4 hours at the Intel Intern Hackathon event in 2014, this is a single web-page that allows you to perform iterative additive synthesis in your browser - we are able to use Joseph Fourier's Fourier Series to add a number of sinusoidal waveforms together in order to approximate a Square Wave or Sawtooth Wave.",
       "highlights": [],
       "startDate": "2014-07",
       "endDate": "2014-07",
-      "url": "https://gitlab.com/charles-m-knox/additive-synthesis-html5",
+      "url": "https://github.com/charles-m-knox/additive-synthesis-html5",
       "roles": [
         "owner"
       ]
     },
     {
-      "name": "[Cinnamon Utilities Menu](https://gitlab.com/charles-m-knox/cinnamon-utils-menu)",
+      "name": "[Cinnamon Utilities Menu](https://github.com/charles-m-knox/cinnamon-utils-menu)",
       "company": "Personal",
       "summary": "A very old applet that added a menu for common tasks on the desktop, created for the Cinnamon desktop environment, which is typically used with Linux Mint.",
       "highlights": [
@@ -315,7 +315,7 @@
       ],
       "startDate": "2012-02",
       "endDate": "2012-03",
-      "url": "https://hub.docker.com/u/charlesmknox",
+      "url": "https://github.com/charles-m-knox/cinnamon-utils-menu",
       "roles": [
         "owner"
       ]
@@ -446,7 +446,7 @@
       "title": "Divisional Recognition Award (DRA) - Enterprise Docker Registry",
       "date": "2017",
       "awarder": "Intel",
-      "website": "https://amr-registry.caas.intel.com",
+      "website": "",
       "summary": "Formed a working group, and created the foundational architecture for the initial version of an Enterprise-grade Docker Registry."
     },
     {
