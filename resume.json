@@ -185,7 +185,7 @@
     {
       "name": "[Light Sites](https://github.com/charles-m-knox/light-sites)",
       "company": "Personal",
-      "summary": "A static markdown-to-HTML server that allows for rapid publishing of documents, with templating and other useful features. Written as a project to learn the nuances of recursion, XML node tree parsing, and tricky unit tests.",
+      "summary": "A markdown-to-HTML server that allows for rapid publishing of documents, with templating and other useful features. Written as a project to learn the nuances of recursion, XML node tree parsing, and tricky unit tests.",
       "highlights": [
         "Written in Go",
         "Written solo as a side project",
