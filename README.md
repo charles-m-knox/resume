@@ -1,6 +1,6 @@
 # Resume
 
-Uses [JSON Resume(https://jsonresume.org/) to generate my resume, using `./resume.json`.
+Uses [JSON Resume](https://jsonresume.org/) to generate my resume, using `./resume.json`.
 
 ## Usage
 
