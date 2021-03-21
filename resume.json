@@ -144,10 +144,43 @@
       "summary": "[5-star rated extension on the Mozilla addon store](https://addons.mozilla.org/en-US/firefox/addon/containers-helper/) that provides a suite of extra features that come in handy for managing containers.",
       "highlights": [
         "Lead developer and owner",
+        "Open Source community collaboration",
+        "~100+ daily active users",
         "Minimal dependencies"
       ],
       "startDate": "2020-11",
       "url": "https://addons.mozilla.org/en-US/firefox/addon/containers-helper/",
+      "roles": [
+        "owner"
+      ]
+    },
+    {
+      "name": "[BananAppeal.co](https://charlesmknox.com/portfolio/fullstack/bananappealco/)",
+      "company": "BananAppeal.co",
+      "summary": "A sleek and professional landing page for a small Etsy-based online retailer with some real traction. Very polished scrolling animations combined with parallax effects help showcase the power and speed of modern web design tools.",
+      "highlights": [
+        "Created in 24 hrs",
+        "Beautiful frontend-only webpage",
+        "Scores 100% in SEO/Accessibility/Best Practices; 99% in performance",
+        "Demonstrates mobile/non-mobile responsiveness"
+      ],
+      "startDate": "2021-03",
+      "url": "https://charlesmknox.com/portfolio/fullstack/bananappealco/",
+      "roles": [
+        "fullstack"
+      ]
+    },
+    {
+      "name": "[jsinvest](https://github.com/charles-m-knox/jsinvest)",
+      "company": "Personal",
+      "summary": "Allows you to split stocks according to portfolio allocations that you can customize. Writes the portfolios to CSV/a table so you can use it with other things. A React implementation of the [Goinvest](https://github.com/charles-m-knox/goinvest) project mentioned below. [Direct link here](https://jsinvest.charlesmknox.com).",
+      "highlights": [
+        "Written in React/Typescript",
+        "Written in 2 days as a solo side project",
+        "Uses AWS Lambda to proxy CORS-compliant requests to Yahoo Finance"
+      ],
+      "startDate": "2021-02",
+      "url": "https://github.com/charles-m-knox/jsinvest",
       "roles": [
         "owner"
       ]
