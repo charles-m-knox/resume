@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Charles Knox",
+    "name": "Charles M. Knox",
     "label": "Software Developer",
     "summary": "Software developer with 10 years of professional experience across a variety of areas of expertise. Physics undergraduate degree holder. Privacy and Open Source Software enthusiast. Vetted in DevOps/Agile/Incubation environments. Proven ability to architect, develop, and implement solutions that exceed expectations. Detail-oriented approach to problem solving ensures business and customer needs are met. Personal, ownership-oriented mentality drives daily work ethic. Transparency and ethical compliance in all endeavors is integral.",
     "website": "https://charlesmknox.com",
     "phone": "",
     "email": "resume-contact.milos@8shield.net",
-    "picture": "/TechLife23.png",
+    "picture": "/TechLife23_centered-position-14x2_full-bg-shadow.png",
     "location": {
       "address": "",
       "postalCode": "",
@@ -14,14 +14,32 @@
       "countryCode": "US",
       "region": "AZ"
     },
-    "profiles": []
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "charles-m-knox",
+        "url": "https://github.com/charles-m-knox"
+      }
+    ]
   },
   "work": [
     {
       "company": "Intel",
       "website": "https://intel.com",
+      "position": "TBD",
+      "startDate": "2021-04",
+      "summary": "TBD.",
+      "highlights": [
+        "New position as of April 2021.",
+        "Too soon to provide specifics."
+      ]
+    },
+    {
+      "company": "Intel",
+      "website": "https://intel.com",
       "position": "IOTG RBHE - Software Developer",
       "startDate": "2018-10",
+      "endDate": "2021-04",
       "summary": "Wrote multiple compliant, open source, market-ready reference solutions for a variety of retail/banking/hospitality/education use cases to showcase the power of Intel.",
       "highlights": [
         "Docker, Go, Angular, Python, Bash",
@@ -145,7 +163,7 @@
       "highlights": [
         "Lead developer and owner",
         "Open Source community collaboration",
-        "~100+ daily active users",
+        "110+ daily active users",
         "Minimal dependencies"
       ],
       "startDate": "2020-11",
@@ -155,7 +173,23 @@
       ]
     },
     {
-      "name": "[BananAppeal.co](https://charlesmknox.com/portfolio/fullstack/bananappealco/)",
+      "name": "[Septaday iOS App](https://charlesmknox.com/apps/septaday/)",
+      "company": "Personal",
+      "summary": "Septaday is an app that helps you live a healthier, more successful life by providing you with 7 daily tasks.",
+      "highlights": [
+        "User task completion history",
+        "Tasks are healthy habits backed by scientific research",
+        "Expo, React Native",
+        "Works on web, iOS, Mac OS, Android"
+      ],
+      "startDate": "2021-03",
+      "url": "https://charlesmknox.com/apps/septaday/",
+      "roles": [
+        "owner"
+      ]
+    },
+    {
+      "name": "[BananAppeal.co Landing Page/Website](https://charlesmknox.com/portfolio/fullstack/bananappealco/)",
       "company": "BananAppeal.co",
       "summary": "A sleek and professional landing page for a small Etsy-based online retailer with some real traction. Very polished scrolling animations combined with parallax effects help showcase the power and speed of modern web design tools.",
       "highlights": [
@@ -225,6 +259,7 @@
         ">95% Unit test code coverage",
         "Lightweight and efficient"
       ],
+      "endDate": "2021-03",
       "startDate": "2020-11",
       "url": "https://github.com/charles-m-knox/light-sites",
       "roles": [
@@ -232,9 +267,9 @@
       ]
     },
     {
-      "name": "[My Personal Website](https://charlesmknox.com/portfolio/fullstack/blog-site/)",
+      "name": "[My (Former) Personal Website](https://charlesmknox.com/portfolio/fullstack/blog-site/)",
       "company": "Personal",
-      "summary": "A full-stack blogging website written for myself and by myself. Replaced by [Hugo](https://gohugo.io). Uses simple Markdown files as the data source.",
+      "summary": "A full-stack blogging website written for myself and by myself. Replaced by [Hugo](https://gohugo.io). Uses simple Markdown files as the data source. Technical discussion available in the link.",
       "highlights": [
         "Angular 9",
         "Go 1.13",
@@ -363,7 +398,9 @@
         "Unit Testing/Code Coverage",
         "Scrum/Agile",
         "TDD Test-Driven Development",
-        "BDD Behavior-Driven Development"
+        "BDD Behavior-Driven Development",
+        "SDL (Security Development Lifecycle)",
+        "Software Licenses/Licensing"
       ]
     },
     {
@@ -379,14 +416,15 @@
       ]
     },
     {
-      "name": "Web Development",
+      "name": "Web and App Development",
       "level": "-advanced",
       "keywords": [
         "Angular v2-v10",
         "TypeScript",
         "React/React Native/Expo",
         "JavaScript",
-        "Bootstrap/CSS/SCSS"
+        "Bootstrap/CSS/SCSS",
+        "App Store"
       ]
     },
     {
@@ -447,6 +485,7 @@
       "flavor": "volunteer",
       "organization": "Ethical AI/Machine Learning Involvement",
       "position": "Software Developer",
+      "endDate": "2021-03",
       "startDate": "2020-09",
       "summary": "Software development project lead assisting with making the world a better place, specifically to assist with reducing bias in AI and machine learning models.",
       "highlights": [
@@ -531,9 +570,21 @@
       "keywords": [
         "Self-hosting"
       ]
+    },
+    {
+      "name": "[Musician](https://aperspection.com)",
+      "summary": "I have several songs and albums on Spotify/Apple Music/other platforms, you can see them at [aperspection.com](https://aperspection.com).",
+      "keywords": [
+        "aperspection.com",
+        "Electronic music"
+      ]
     }
   ],
   "references": [
+    {
+      "name": "**Supporters**",
+      "reference": "Visit the [public **Supporters** page on my personal site](https://charlesmknox.com/supporters/) to see testimonials from people who have made financial contributions to my open source work. You can also see supporters on [Buy me a coffee](https://www.buymeacoffee.com/charles.m.knox)."
+    },
     {
       "name": "**Anonymous**, Senior Software Developer, during Intel",
       "reference": "Chuck is awesome. Honestly what else even needs to be said. He's one of the the most responsible, put-together, forward-thinking people have ever met and he easily meets any challenge presented to him. If you're actually reading these comments to decide if you should hire him just do it, you'll die happy knowing you made the right decision."

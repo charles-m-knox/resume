@@ -1,3 +1,6 @@
 jsonresume-theme-elegant
 docs/index.pdf
 docs/index.pdf.html
+node_modules
+.DS_Store
+*_tmp
